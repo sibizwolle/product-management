@@ -1,0 +1,27 @@
+# Data met klantgegevens
+**/community-data/
+*.csv
+
+# Logs
+logs/
+*.log
+
+# IDE/editor
+*.sublime-*
+*.sublime-project
+*.sublime-workspace
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Gemini configuratie (bevat mogelijk gevoelige memories)
+.gemini/
+
+# Node
+node_modules/
+
+# Grote bestanden
+mcp-framework

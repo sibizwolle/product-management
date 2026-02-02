@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /home/martijn/projecten/community-productupdates-kennisitems log --oneline -10)",
+      "Bash(git -C /home/martijn/projecten/community-productupdates-kennisitems ls-files:*)",
+      "Bash(git -C /home/martijn/projecten/community-productupdates-kennisitems log --all --pretty=format:\"%h %s\")",
+      "Bash(git -C /home/martijn/projecten/community-productupdates-kennisitems show ff0dcbe --name-only)",
+      "mcp__atlassian__getJiraIssue",
+      "mcp__atlassian__searchJiraIssuesUsingJql",
+      "Bash(unzip:*)"
+    ]
+  }
+}

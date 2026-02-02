@@ -1,0 +1,17 @@
+# Community data (bevat klantgegevens)
+community-data/
+
+# Gemini configuratie
+.gemini/
+
+# IDE/editor
+*.sublime-*
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log

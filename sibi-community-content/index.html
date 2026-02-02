@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Content</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            display: flex;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f2f5;
+        }
+        #menu {
+            width: 350px;
+            min-width: 350px;
+            flex-shrink: 0;
+            background-color: #fff;
+            border-right: 1px solid #ddd;
+            padding: 20px;
+            overflow-y: auto;
+        }
+        #menu h2 {
+            margin-top: 0;
+            color: #1c2939;
+            border-bottom: 2px solid #f0f2f5;
+            padding-bottom: 10px;
+        }
+        #menu ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        #menu li {
+            padding: 12px 15px;
+            cursor: pointer;
+            border-radius: 6px;
+            margin-bottom: 5px;
+            transition: background-color 0.2s ease;
+            font-size: 14px;
+            color: #333;
+        }
+        #menu li:hover {
+            background-color: #f0f2f5;
+        }
+        #menu li.active {
+            background-color: #e7f3ff;
+            color: #0052cc;
+            font-weight: 600;
+        }
+        #content {
+            flex-grow: 1;
+            padding: 30px;
+            overflow-y: auto;
+            background-color: #fff;
+            margin: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        .content-item h1, .content-item h2, .content-item h3, .content-item h4 {
+            color: #1c2939;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+        }
+        .content-item h1 { font-size: 28px; }
+        .content-item h2 { font-size: 22px; }
+        .content-item h3 { font-size: 18px; }
+        .content-item p, .content-item li {
+            line-height: 1.6;
+            color: #444;
+            margin-bottom: 15px;
+        }
+        strong {
+            font-weight: 600;
+        }
+        em {
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div id="menu">
+        <h2>Menu</h2>
+        <ul>
+            <li data-target="item-13" class="active">20260202 - kennisitem: Hoe schakel ik de printknop voor kennisitems in?</li>
+            <li data-target="item-12">20260202 - productupdate: E-mailnotificaties voor formulieren</li>
+            <li data-target="item-11">20260202 - kennisitem: Hoe stel ik notificaties in voor een formulier?</li>
+            <li data-target="item-10">20260112 - productupdate: Kennisitems printen met voorblad vanuit Kwaliteitsroutines</li>
+            <li data-target="item-9">20260112 - productupdate: Nieuwe vraagtypen en verbeteringen in formulieren</li>
+            <li data-target="item-8">20260108 - productupdate: Kleine verbeteringen en fixes (januari 2026)</li>
+            <li data-target="item-7">20260108 - productupdate: Vind collega's op basis van Specialisatie</li>
+            <li data-target="item-6">20260108 - productupdate: Nieuwsbijdragen opslaan als Concept</li>
+            <li data-target="item-5">20260108 - productupdate: Automatisch doorsturen na inloggen</li>
+            <li data-target="item-4">20260108 - productupdate: Duidelijkheid in Bind Inbox bij antwoorden op Pop-ups</li>
+            <li data-target="item-3">20251218 - productupdate: Eenvoudig je werktijden beheren</li>
+            <li data-target="item-0">20230101 - productupdate: Metadata bij bestanden in Kwaliteitsroutines</li>
+            <li data-target="item-2">kennisitem: Hoe beheer ik mijn werktijden?</li>
+            <li data-target="item-1">kennisitem: Hoe maak en bewerk ik een formulier?</li>
+        </ul>
+    </div>
+    <div id="content">
+        <div id="item-13" class="content-item">
+            <h1>Hoe schakel ik de printknop voor kennisitems in?</h1>
+            <h2>Wat is de functionaliteit?</h2>
+            <p>Kennisitems kunnen direct vanuit het Sociaal Intranet worden geprint via een printknop. Wanneer een kennisitem onderdeel is van een Kwaliteitsroutine, wordt er automatisch een voorblad gegenereerd met belangrijke metadata zoals de titel, het versienummer, de evaluatiedatum en de namen van de betrokken routineers (controleur, auteur, eigenaar). Ook het logo van je organisatie wordt op het voorblad getoond.</p>
+            <p>De printknop staat standaard uit en moet door een beheerder worden ingeschakeld in <strong>Sibi Hub</strong>.</p>
+            <h2>Hoe werkt het?</h2>
+            <p><strong>Printknop inschakelen (voor beheerders)</strong></p>
+            <ol>
+                <li>Ga naar <strong>Sibi Hub</strong>.</li>
+                <li>Navigeer naar <strong>Sociaal Intranet</strong> &gt; <strong>Instellingen</strong> &gt; <strong>Algemeen</strong> (of ga direct naar <em>/beheer/sociaal-intranet/instellingen/algemeen</em>).</li>
+                <li>Zoek de instelling <strong>Printknop onder kennisitems tonen</strong> in het onderdeel <strong>Kennis</strong>.</li>
+                <li>Zet de schakelaar aan.</li>
+                <li>Sla de instellingen op.</li>
+            </ol>
+            <p><strong>Een kennisitem printen (voor medewerkers)</strong></p>
+            <ol>
+                <li>Open het kennisitem dat je wilt printen.</li>
+                <li>Klik op de <strong>printknop</strong> onderaan het kennisitem.</li>
+                <li>Het afdrukvenster van je browser opent. Hier kun je de printer selecteren en het document afdrukken of opslaan als PDF.</li>
+            </ol>
+            <h2>Goed om te weten</h2>
+            <ul>
+                <li>De printknop is alleen zichtbaar als de beheerder deze functie heeft ingeschakeld.</li>
+                <li>Bij kennisitems die onderdeel zijn van een Kwaliteitsroutine wordt automatisch een voorblad toegevoegd met metadata en het organisatielogo.</li>
+                <li>De printknop wordt niet getoond bij revisies van een kennisitem.</li>
+                <li>Je kunt ook altijd printen via de standaard browserfunctie (Ctrl+P of Cmd+P), maar dan wordt er geen voorblad met metadata gegenereerd.</li>
+            </ul>
+        </div>
+        <div id="item-12" class="content-item" style="display: none;">
+            <h1>Productupdate: E-mailnotificaties voor formulieren</h1>
+            <p>Vanaf nu kun je bij formulieren instellen dat notificaties ook per e-mail worden verstuurd. Zo hoef je niet meer in te loggen op het Sociaal Intranet om te zien dat er een nieuwe inzending is binnengekomen.</p>
+            <h3>Wat is er nieuw?</h3>
+            <p>Bij het instellen van notificaties voor een formulier heb je nu twee opties:</p>
+            <ul>
+                <li><strong>Notificeer in Sociaal Intranet:</strong> Selecteer collega's die een notificatie ontvangen binnen het platform (zoals voorheen).</li>
+                <li><strong>Notificeer per e-mailbericht:</strong> Voer één of meerdere e-mailadressen in. Bij elke nieuwe inzending wordt automatisch een e-mail verstuurd naar deze adressen.</li>
+            </ul>
+            <p>Je kunt beide opties tegelijk gebruiken, of slechts één van de twee. Minimaal één notificatiemethode moet ingevuld zijn.</p>
+            <h3>Waarom is dit handig?</h3>
+            <ul>
+                <li><strong>Gedeelde mailboxen:</strong> Stuur notificaties naar een functionele mailbox (bijvoorbeeld hr@jouworganisatie.nl) die door meerdere collega's wordt beheerd.</li>
+                <li><strong>Sneller reageren:</strong> Zie direct in je e-mail dat er een nieuwe inzending is, zonder dat je hoeft in te loggen.</li>
+                <li><strong>Flexibel werkproces:</strong> Combineer e-mail met intranet-notificaties, of kies de methode die het beste past bij jouw werkwijze.</li>
+            </ul>
+            <h3>Goed om te weten</h3>
+            <ul>
+                <li>Om meerdere e-mailadressen toe te voegen, typ je het adres en druk je op Enter. Elk adres wordt als apart label getoond.</li>
+                <li>Wil je weten hoe je dit precies instelt? Lees het kennisitem: <strong>Hoe stel ik notificaties in voor een formulier?</strong></li>
+            </ul>
+        </div>
+        <div id="item-11" class="content-item" style="display: none;">
+            <h1>Hoe stel ik notificaties in voor een formulier?</h1>
+            <h2>Wat is de functionaliteit?</h2>
+            <p>Als groepsbeheerder kun je instellen wie een melding ontvangt wanneer er een nieuwe formulierinzending binnenkomt. Je kunt kiezen voor notificaties binnen het Sociaal Intranet, per e-mail, of beide.</p>
+            <h2>Hoe werkt het?</h2>
+            <ol>
+                <li>Ga naar de groep waarin het formulier staat.</li>
+                <li>Klik in het groepsmenu op <strong>Formulieren</strong>.</li>
+                <li>Klik op het <strong>wijzig-icoon</strong> (potloodje) naast het formulier dat je wilt aanpassen.</li>
+                <li>Scroll naar het onderdeel <strong>Notificaties</strong>.</li>
+                <li>Stel de gewenste notificatiemethode(s) in:
+                    <ul>
+                        <li><strong>Notificeer in Sociaal Intranet:</strong> Selecteer één of meerdere collega's die een notificatie in het platform ontvangen.</li>
+                        <li><strong>Notificeer per e-mailbericht:</strong> Typ een e-mailadres en druk op Enter om het toe te voegen. Herhaal dit voor meerdere adressen.</li>
+                    </ul>
+                </li>
+                <li>Klik op <strong>Opslaan</strong>.</li>
+            </ol>
+            <h2>Goed om te weten</h2>
+            <ul>
+                <li>Minimaal één van de twee notificatiemethodes moet ingevuld zijn. Beide velden mogen niet tegelijk leeg zijn.</li>
+                <li>Je kunt beide methodes combineren. Zo ontvangen collega's een melding in het Sociaal Intranet én wordt er een e-mail verstuurd naar een gedeelde mailbox.</li>
+                <li>E-mailnotificaties zijn handig voor functionele mailboxen die door meerdere collega's worden beheerd, zodat inzendingen direct kunnen worden opgepakt en verdeeld.</li>
+                <li>Om een e-mailadres te verwijderen, klik je op het kruisje bij het adres.</li>
+            </ul>
+        </div>
+        <div id="item-10" class="content-item" style="display: none;">
+            <h1>Productupdate: Kennisitems printen met voorblad vanuit Kwaliteitsroutines</h1>
+            <p>Het is nu mogelijk om kennisitems direct vanuit het platform te printen, compleet met een professioneel voorblad wanneer deze onderdeel zijn van een Kwaliteitsroutine.</p>
+            <ul>
+                <li><strong>Printen met één klik:</strong> Bij elk kennisitem is een printknop toegevoegd.</li>
+                <li><strong>Automatisch voorblad:</strong> Wanneer je een kennisitem print dat gekoppeld is aan een Kwaliteitsroutine, wordt er automatisch een voorblad gegenereerd. Dit voorblad bevat belangrijke informatie zoals de titel, de versie en de eigenaar, wat zorgt voor een compleet en officieel document.</li>
+                <li><strong>Handig voor offline gebruik:</strong> Deze functie is ideaal voor situaties waarin je een fysieke kopie van een procedure of werkinstructie nodig hebt, bijvoorbeeld voor audits, trainingen of om op te hangen op de werkplek.</li>
+            </ul>
+        </div>
+        <div id="item-9" class="content-item" style="display: none;">
+            <h1>Productupdate: Nieuwe vraagtypen en verbeteringen in formulieren</h1>
+            <p>We hebben het beheer van formulieren in het platform verder uitgebreid met nieuwe vraagtypen en handige verbeteringen.</p>
+            <ul>
+                <li><strong>Nieuwe vraagtypen:</strong> Je kunt nu eenvoudig een "Bestand uploaden" vraag toevoegen, zodat gebruikers bestanden kunnen meesturen. Daarnaast is het vraagtype "Uitklapbare keuzelijst" (dropdown) toegevoegd voor compactere meerkeuzevragen.</li>
+                <li><strong>"Anders namelijk" optie voor meerkeuzevragen:</strong> Bij de vraagtypen 'Selectievakjes' (checkbox), 'Keuzerondjes' (radio) en 'Uitklapbare keuzelijst' is nu de optie "Anders namelijk" beschikbaar. Dit geeft respondenten de mogelijkheid om een eigen antwoord in te vullen als de voorgedefinieerde opties niet van toepassing zijn.
+                    <ul>
+                        <li>Antwoorden die via "Anders namelijk" zijn gegeven, worden nu duidelijk herkenbaar in de inzendingen weergegeven met een prefix zoals "Anders, namelijk: [jouw ingevulde antwoord]".</li>
+                    </ul>
+                </li>
+                <li><strong>Verbeterde stabiliteit:</strong> We hebben de stabiliteit verbeterd bij het gebruik van lange teksten in de opties van een keuzelijst, waardoor onverwachte foutmeldingen worden voorkomen.</li>
+            </ul>
+        </div>
+        <div id="item-8" class="content-item" style="display: none;">
+            <h1>Productupdate: Kleine verbeteringen en fixes (januari 2026)</h1>
+            <p>We hebben weer een aantal kleinere, maar waardevolle verbeteringen en fixes doorgevoerd in het platform. Hieronder een overzicht van de belangrijkste wijzigingen.</p>
+            <ul>
+                <li><strong>Schonere zoekresultaten:</strong> De titel van een kennisitem wordt niet meer dubbel getoond in de zoekresultaten, wat zorgt voor een rustiger beeld.</li>
+                <li><strong>Verbeterde weergave van vacatures:</strong> Opsommingstekens (zoals bullet points) in vacatureteksten worden nu correct weergegeven.</li>
+                <li><strong>Duidelijkere formulier-notificaties:</strong> Notificaties voor nieuwe formulier-inzendingen worden nu samengevoegd zolang ze ongelezen zijn. Zo blijft je notificatie-overzicht opgeruimd. De link in de notificatie leidt je nu ook direct naar het tabblad met de inzendingen.</li>
+                <li><strong>Betere YouTube-thumbnails:</strong> We hebben de manier waarop YouTube-video's worden getoond verbeterd. Hierdoor wordt altijd de juiste thumbnail ingeladen en zie je geen lege plaatjes meer.</li>
+                <li><strong>Verfijnde notificaties:</strong> De weergave van notificaties in het Sociaal Intranet is verfijnd. Je ziet nu duidelijker wie de actie heeft uitgevoerd en een voorbeeld van de betreffende reactie.</li>
+                <li><strong>Waarschuwing bij onopgeslagen kennis:</strong> Net als bij bijdragen, krijg je nu een waarschuwing als je een kennisitem wilt verlaten terwijl er nog niet-opgeslagen wijzigingen zijn. Zo voorkom je dat je per ongeluk werk kwijtraakt.</li>
+                <li><strong>Flow-overzicht verbeterd:</strong> Inactieve flows vallen nu meer op door een rode kleur, en het overzicht wordt gesorteerd op de laatst gewijzigde flow, zodat je recente werk bovenaan staat.</li>
+                <li><strong>Veiliger activatieverzoeken versturen:</strong> De optie om in bulk activatieverzoeken te sturen naar <em>alle</em> collega's is verwijderd van het algemene collega-overzicht om onbedoeld massaal uitsturen te voorkomen.</li>
+                <li><strong>Logischer beheer 'Laatste werkdag':</strong> In Sibi Hub is het veld 'Laatste werkdag' nu alleen zichtbaar en invulbaar als er ook een 'Datum uit dienst' is ingevuld.</li>
+            </ul>
+        </div>
+        <div id="item-7" class="content-item" style="display: none;">
+            <h1>Productupdate: Vind collega's op basis van Specialisatie</h1>
+            <h3>Wat is er nieuw?</h3>
+            <p>Het is nu makkelijker dan ooit om een collega met specifieke kennis te vinden. De collega-pagina in het Sociaal Intranet is uitgebreid met de mogelijkheid om te filteren op <strong>Specialisatie</strong>.</p>
+            <p>Daarnaast is het zoekveld op de collega-pagina verbeterd: deze doorzoekt nu ook de specialisaties van je collega's. Ook kun je direct vanuit een medewerkerpaneel doorklikken op een specialisatie. Je wordt dan meteen naar het collega-overzicht geleid, gefilterd op die specifieke vaardigheid.</p>
+            <h3>Waarom is dit handig?</h3>
+            <ul>
+                <li><strong>Vind snel een expert:</strong> Zoek je een expert voor een project, heb je een vraag over een specifiek onderwerp, of wil je gewoon weten wie welke kennis in huis heeft? Met deze nieuwe filter- en zoekmogelijkheden vind je sneller de juiste persoon.</li>
+                <li><strong>Bevordert kennisdeling:</strong> De nieuwe functionaliteit maakt het eenvoudiger om binnen de organisatie samen te werken en kennis uit te wisselen.</li>
+            </ul>
+            <h3>Goed om te weten</h3>
+            <ul>
+                <li>Deze functionaliteit werkt het best wanneer collega's hun specialisaties hebben ingevuld op hun profiel. Stimuleer je collega's om hun profiel compleet te maken!</li>
+            </ul>
+        </div>
+        <div id="item-6" class="content-item" style="display: none;">
+            <h1>Productupdate: Nieuwsbijdragen opslaan als Concept</h1>
+            <h3>Wat is er nieuw?</h3>
+            <p>Het is nu mogelijk om een nieuwsbijdrage op te slaan als concept. In plaats van direct te publiceren, kun je bij het aanmaken of bewerken van een nieuwsbijdrage kiezen om deze als concept te bewaren. De concept-bijdrage verschijnt dan alleen zichtbaar voor de auteur en beheerders bovenaan de tijdlijn van de groep, zodat je er op een later moment verder aan kunt werken.</p>
+            <h3>Waarom is dit handig?</h3>
+            <ul>
+                <li><strong>Flexibiliteit:</strong> Werk op je eigen tempo aan een nieuwsbericht zonder het direct te hoeven publiceren.</li>
+                <li><strong>Voorbereiding:</strong> Zet berichten van tevoren klaar en publiceer ze met één klik op het juiste moment.</li>
+                <li><strong>Kwaliteitscontrole:</strong> Voorkom het publiceren van onvolledige berichten. Je kunt een concept eerst intern laten reviewen voordat het live gaat.</li>
+            </ul>
+            <h3>Goed om te weten</h3>
+            <ul>
+                <li>Een concept is alleen zichtbaar voor de auteur(s) en de groepsbeheerder(s).</li>
+                <li>Een concept met een publicatiedatum in de toekomst wordt <strong>niet</strong> automatisch gepubliceerd. Je moet de bijdrage altijd handmatig publiceren.</li>
+                <li>Een reeds gepubliceerde nieuwsbijdrage kan weer teruggezet worden naar een concept.</li>
+                <li>Concepten kunnen niet worden doorgeplaatst naar andere groepen.</li>
+            </ul>
+        </div>
+        <div id="item-5" class="content-item" style="display: none;">
+            <h1>Productupdate: Nieuwe inlogoptie 'Automatisch doorsturen'</h1>
+            <h3>Wat is er nieuw?</h3>
+            <p>Onder de Identiteitsinstellingen in Sibi Hub is een nieuwe optie toegevoegd: <strong>Automatisch doorsturen</strong>. Deze instelling geeft beheerders controle over de inlog-flow wanneer er een externe Identity Provider (zoals Microsoft Azure) wordt gebruikt.</p>
+            <p>Je kunt kiezen uit drie opties:</p>
+            <ul>
+                <li><strong>Altijd:</strong> De medewerker wordt altijd direct doorgestuurd naar de inlogpagina van de externe provider, en slaat de Sibi-inlogpagina over.</li>
+                <li><strong>Nooit:</strong> De medewerker ziet altijd eerst de Sibi-inlogpagina en moet bewust kiezen om door te gaan naar de externe provider.</li>
+                <li><strong>Onthouden:</strong> De keuze van de medewerker bij de eerste keer inloggen wordt onthouden in een cookie. Bij volgende bezoeken wordt de medewerker automatisch doorgestuurd, wat zorgt voor een snellere ervaring.</li>
+            </ul>
+            <h3>Waarom is dit handig?</h3>
+            <ul>
+                <li><strong>Flexibele inlog-flow:</strong> Kies de methode die het beste past bij het beleid en de wensen van jouw organisatie.</li>
+                <li><strong>Verhoogd gebruikersgemak:</strong> De opties 'Altijd' en 'Onthouden' zorgen voor een snellere en soepelere inlog-ervaring met minder klikken.</li>
+                <li><strong>Duidelijkheid voor de gebruiker:</strong> De 'Nooit' optie biedt uitkomst wanneer het expliciet tonen van de Sibi-inlogpagina gewenst is.</li>
+            </ul>
+            <h3>Goed om te weten</h3>
+            <ul>
+                <li>Deze optie is alleen beschikbaar en van toepassing als er voor de Sibi-omgeving een externe Identity Provider (IDP), zoals Microsoft Azure, is ingesteld.</li>
+            </ul>
+        </div>
+        <div id="item-4" class="content-item" style="display: none;">
+            <h1>Productupdate: Meer context bij antwoorden op pop-ups in de Bind Inbox</h1>
+            <h3>Wat is er nieuw?</h3>
+            <p>Wanneer een medewerker reageert op aandacht die via <strong>Sibi Pop</strong> is verstuurd (bijvoorbeeld door een reactie te plaatsen of een aantal sterren te geven), wordt dit antwoord nu direct gelinkt aan het oorspronkelijke bericht in de Bind Inbox. Hierdoor blijft de context van het gesprek altijd duidelijk, ook als er andere communicatie tussendoor is geweest.</p>
+            <p>Voorheen was dit verband niet altijd helder, wat voor verwarring kon zorgen.</p>
+            <h3>Waarom is dit handig?</h3>
+            <ul>
+                <li><strong>Altijd Duidelijk:</strong> Je ziet direct bij welke vraag een bepaald antwoord hoort.</li>
+                <li><strong>Geen Verwarring:</strong> De volledige context van een gesprek blijft behouden, zelfs als er meerdere gesprekken of pop-ups door elkaar lopen.</li>
+                <li><strong>Efficiënter Werken:</strong> Beheerders kunnen sneller en accurater reageren omdat ze niet meer hoeven te puzzelen waar een reactie over gaat.</li>
+            </ul>
+            <h3>Goed om te weten</h3>
+            <p>Deze verbetering is van toepassing op alle aandacht die via Sibi Pop wordt verstuurd en waarop een medewerker kan reageren (zoals via een reactie of een sterren-rating).</p>
+        </div>
+        <div id="item-2" class="content-item" style="display: none;">
+            <h1>Hoe beheer ik mijn werktijden?</h1>
+            <h2>Wat is de functionaliteit?</h2>
+            <p>Je kunt nu eenvoudig je werktijden instellen op je profielpagina. Dit geeft je collega's inzicht in je beschikbaarheid. Je kunt per dag aangeven op welke tijden je werkt, of aangeven dat je onregelmatige werktijden hebt.</p>
+            <h2>Wat is de waarde voor de lezer?</h2>
+            <p>Door je werktijden in te vullen, weten je collega's wanneer je wel en niet beschikbaar bent. Dit maakt het plannen van afspraken en het samenwerken een stuk eenvoudiger en efficiënter.</p>
+            <h2>Hoe werkt het?</h2>
+            <ol>
+              <li>Ga naar je profiel door rechtsboven op je naam of profielfoto te klikken.</li>
+              <li>Klik op 'Profiel bewerken'.</li>
+              <li>Scroll naar het onderdeel 'Werktijden'.</li>
+              <li>Per dag kun je met een schakelaar aangeven of je die dag werkt. Zet je de schakelaar aan, dan kun je de begin- en eindtijd invullen.</li>
+              <li>Werk je op onregelmatige tijden? Zet dan de schakelaar 'Ik werk onregelmatig' aan. De specifieke daginstellingen worden dan verborgen.</li>
+              <li>Sla je wijzigingen op.</li>
+            </ol>
+            <h2>Goed om te weten</h2>
+            <ul>
+              <li>Je ingevulde werktijden zijn voor je collega's zichtbaar op je medewerkerpaneel.</li>
+              <li>Deze functionaliteit is ook beschikbaar in de welkomstwizard wanneer je voor het eerst inlogt.</li>
+            </ul>
+        </div>
+        <div id="item-3" class="content-item" style="display: none;">
+            <h1>Productupdate: Eenvoudig je werktijden beheren</h1>
+            <p>In de nieuwste update hebben we het eenvoudiger gemaakt om je werktijden te beheren. Je kunt nu direct vanaf je profielpagina je beschikbaarheid per dag instellen of aangeven dat je onregelmatig werkt.</p>
+            <p>Zo weten je collega's direct wanneer ze bij je terecht kunnen. Wel zo makkelijk!</p>
+            <p>Meer weten? Lees het kennisitem: <strong>Hoe beheer ik mijn werktijden?</strong></p>
+        </div>
+        <div id="item-1" class="content-item" style="display: none;">
+            <h1>Hoe maak en bewerk ik een formulier?</h1>
+            <h4>Wat is de functionaliteit?</h4>
+            <p>Als groepsbeheerder kun je binnen je eigen groep formulieren aanmaken om informatie van medewerkers te verzamelen. Dit kennisitem legt stap voor stap uit hoe je een nieuw formulier aanmaakt en een bestaand formulier kunt wijzigen.</p>
+            <h4>Gebruiksinstructies</h4>
+            <p><strong>Een nieuw formulier aanmaken</strong></p>
+            <ol>
+                <li>Ga naar de groep waarin je het formulier wilt aanmaken.</li>
+                <li>Klik in het groepsmenu op <strong>Formulieren</strong>.</li>
+                <li>Klik op de knop <strong>+ Nieuw formulier</strong>.</li>
+                <li>Je komt nu op de instellingenpagina van het formulier. Vul de volgende velden in:
+                    <ul>
+                        <li><strong>Titel:</strong> Geef het formulier een duidelijke en herkenbare naam.</li>
+                        <li><strong>Omschrijving:</strong> Leg kort uit waar het formulier voor dient. Deze tekst is zichtbaar voor de medewerker die het formulier invult.</li>
+                        <li><strong>Succesmelding (optioneel):</strong> Vul hier een eigen bericht in dat wordt getoond nadat iemand het formulier heeft ingevuld. Bijvoorbeeld: "Bedankt voor je aanmelding! We nemen contact met je op."</li>
+                    </ul>
+                </li>
+                <li>Klik op <strong>Opslaan</strong>.</li>
+            </ol>
+            <p>Je formulier is nu aangemaakt! De volgende stap is het toevoegen van vragen.</p>
+            <p><em>(Lees in dit artikel hoe je vragen toevoegt: Hoe beheer ik de vragen in een formulier?)</em></p>
+            <p><strong>Een bestaand formulier bewerken</strong></p>
+            <ol>
+                <li>Ga naar de groep en klik op <strong>Formulieren</strong>.</li>
+                <li>Je ziet een overzicht van alle formulieren in de groep. Klik op het <strong>wijzig-icoon</strong> (potloodje) naast het formulier dat je wilt bewerken.</li>
+                <li>Je kunt nu de titel, omschrijving en de succesmelding aanpassen.</li>
+                <li>Klik op <strong>Opslaan</strong> om de wijzigingen door te voeren.</li>
+            </ol>
+            <h4>Goed om te weten</h4>
+            <ul>
+                <li>Alleen <strong>Groepsbeheerders</strong> en <strong>Sociaal Intranet Beheerders (SIB's)</strong> hebben de rechten om formulieren aan te maken en te beheren.</li>
+                <li>Een nieuw aangemaakt formulier is nog niet zichtbaar voor groepsleden. Je moet het eerst <strong>activeren</strong> en er vragen aan toevoegen.</li>
+                <li>Je kunt een formulier ook (tijdelijk) deactiveren. Leden kunnen het dan niet meer invullen, maar de resultaten blijven bewaard. <em>(Lees meer in: Hoe deactiveer of verwijder ik een formulier?)</em></li>
+            </ul>
+        </div>
+        <div id="item-0" class="content-item" style="display: none;">
+            <h1>Productupdate: Metadata bij bestanden in Kwaliteitsroutines</h1>
+            <p>Vanaf nu is het eenvoudiger om de herkomst en relevantie van bestanden en kennisitems binnen de Kwaliteitsroutines te beoordelen. Bij elk document wordt nu belangrijke metadata getoond.</p>
+            <h2>Wat is er nieuw?</h2>
+            <p>Bij het bekijken van een document of kennisitem in een Kwaliteitsroutine, zie je nu de volgende informatie:</p>
+            <ul>
+                <li><strong>Publicatiedatum:</strong> De datum waarop het item oorspronkelijk is gepubliceerd.</li>
+                <li><strong>Laatst bijgewerkt:</strong> De datum waarop het item voor het laatst is gewijzigd.</li>
+                <li><strong>Eigenaar:</strong> De persoon die verantwoordelijk is voor de inhoud.</li>
+            </ul>
+            <h2>Wat is de waarde?</h2>
+            <p>Deze toevoeging zorgt voor meer transparantie. Je kunt nu snel zien hoe actueel een document is en wie je kunt benaderen met vragen of opmerkingen. Dit helpt bij het borgen van de kwaliteit en actualiteit van alle informatie.</p>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuItems = document.querySelectorAll('#menu li');
+            const contentItems = document.querySelectorAll('.content-item');
+
+            // Set initial state
+            const initialActive = document.querySelector('#menu li.active');
+            if (initialActive) {
+                const initialTargetId = initialActive.getAttribute('data-target');
+                contentItems.forEach(item => {
+                    if (item.id === initialTargetId) {
+                        item.style.display = 'block';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+            }
+
+
+            menuItems.forEach(menuItem => {
+                menuItem.addEventListener('click', function() {
+                    // Update active class in menu
+                    menuItems.forEach(item => item.classList.remove('active'));
+                    this.classList.add('active');
+
+                    const targetId = this.getAttribute('data-target');
+
+                    // Hide all content items
+                    contentItems.forEach(item => {
+                        item.style.display = 'none';
+                    });
+
+                    // Show the target content item
+                    const targetContent = document.getElementById(targetId);
+                    if (targetContent) {
+                        targetContent.style.display = 'block';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
