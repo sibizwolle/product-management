@@ -136,11 +136,6 @@ Alleen tickets met user-facing functionaliteit staan hier; puur technische bugfi
   - Soort: Kennisitem update (collega-overzicht / medewerkerpaneel)
   - Toelichting: Als het systeemgroepstype Team niet actief is, wordt het team van de medewerker getoond op het medewerkerpaneel. Verdient een update van het kennisitem over het collega-overzicht of medewerkerpaneel.
 
-- [ ] **SIA-1910** – Direct naar-tegels zonder witruimte (nieuwe instelling)
-  - Status: Done
-  - Soort: Kennisitem update (Direct naar-widget / beheer)
-  - Toelichting: Nieuwe beheerinstelling op het Direct naar-widget: 'Geen witruimte om de tegel'. Verdient een update van het kennisitem over het Direct naar-widget voor beheerders.
-
 - [ ] **SIA-1928** – Menu-item "Meldingen" verplaatst naar onder Organisatie
   - Status: Review
   - Soort: Kennisitem update (navigatie / Zelfservice)
@@ -158,4 +153,6 @@ Alleen tickets met user-facing functionaliteit staan hier; puur technische bugfi
 
 ## Afgevinkt (gedaan)
 
-<!-- Afgevinkte items komen hier, met ticket en datum -->
+- [x] **SIA-1910** – Direct naar-tegels zonder witruimte (nieuwe instelling)
+  - Afgerond: 2026-02-23
+  - Productupdate geschreven en toegevoegd aan index.html (item-31)

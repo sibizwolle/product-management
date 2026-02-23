@@ -84,278 +84,593 @@
     <div id="menu">
         <h2>Menu</h2>
         <ul>
-            <li data-target="item-13" class="active">20260202 - kennisitem: Hoe schakel ik de printknop voor kennisitems in?</li>
-            <li data-target="item-12">20260202 - productupdate: E-mailnotificaties voor formulieren</li>
-            <li data-target="item-11">20260202 - kennisitem: Hoe stel ik notificaties in voor een formulier?</li>
-            <li data-target="item-10">20260112 - productupdate: Kennisitems printen met voorblad vanuit Kwaliteitsroutines</li>
-            <li data-target="item-9">20260112 - productupdate: Nieuwe vraagtypen en verbeteringen in formulieren</li>
-            <li data-target="item-8">20260108 - productupdate: Kleine verbeteringen en fixes (januari 2026)</li>
-            <li data-target="item-7">20260108 - productupdate: Vind collega's op basis van Specialisatie</li>
-            <li data-target="item-6">20260108 - productupdate: Nieuwsbijdragen opslaan als Concept</li>
-            <li data-target="item-5">20260108 - productupdate: Automatisch doorsturen na inloggen</li>
-            <li data-target="item-4">20260108 - productupdate: Duidelijkheid in Bind Inbox bij antwoorden op Pop-ups</li>
-            <li data-target="item-3">20251218 - productupdate: Eenvoudig je werktijden beheren</li>
-            <li data-target="item-0">20230101 - productupdate: Metadata bij bestanden in Kwaliteitsroutines</li>
-            <li data-target="item-2">kennisitem: Hoe beheer ik mijn werktijden?</li>
-            <li data-target="item-1">kennisitem: Hoe maak en bewerk ik een formulier?</li>
+            <li data-target="item-31" class="active">20260223 - productupdate: Direct naar-tegels met een eigen look</li>
+            <li data-target="item-30">20260220 - kennisitem: Formuliervraag content bij een subcategorie</li>
+            <li data-target="item-29">20260217 - kennisitem: Openbare of besloten kennis (herschreven)</li>
+            <li data-target="item-28">20260213 - kennisitem: Hoe doorzoek en filter ik meldingen?</li>
+            <li data-target="item-27">20260213 - kennisitem: Hoe heropen ik een melding?</li>
+            <li data-target="item-26">20260211 - kennisitem: Hoe exporteer ik meldingen naar CSV?</li>
+            <li data-target="item-25">20260211 - kennisitem: Wie heeft er toegang tot het Sociaal Intranet?</li>
+            <li data-target="item-24">20260211 - kennisitem: Hoe zie ik of een collega beschikbaar is?</li>
+            <li data-target="item-23">20260210 - kennisitem: Wie kan wat zien en doen in Zelfservice?</li>
+            <li data-target="item-21">20260210 - productupdate: Zelfservice in Sociaal Intranet</li>
+            <li data-target="item-20">20260210 - kennisitem: Hoe configureer ik Zelfservice? (voor beheerders)</li>
+            <li data-target="item-19">20260210 - kennisitem: Hoe behandel ik meldingen? (voor oplosgroep)</li>
+            <li data-target="item-18">20260210 - kennisitem: Hoe maak ik een melding aan?</li>
         </ul>
     </div>
     <div id="content">
-        <div id="item-13" class="content-item">
-            <h1>Hoe schakel ik de printknop voor kennisitems in?</h1>
-            <h2>Wat is de functionaliteit?</h2>
-            <p>Kennisitems kunnen direct vanuit het Sociaal Intranet worden geprint via een printknop. Wanneer een kennisitem onderdeel is van een Kwaliteitsroutine, wordt er automatisch een voorblad gegenereerd met belangrijke metadata zoals de titel, het versienummer, de evaluatiedatum en de namen van de betrokken routineers (controleur, auteur, eigenaar). Ook het logo van je organisatie wordt op het voorblad getoond.</p>
-            <p>De printknop staat standaard uit en moet door een beheerder worden ingeschakeld in <strong>Sibi Hub</strong>.</p>
+        <!-- Productupdate 31: Direct naar-tegels met een eigen look (SIA-1910) -->
+        <div id="item-31" class="content-item">
+            <h1>Productupdate: Direct naar-tegels met een eigen look</h1>
+            <p>Het <strong>Direct naar</strong>-widget heeft een nieuwe instelling: je kunt de witte achtergrond en padding rondom de tegels uitzetten. Zo krijgen afbeeldingen met een eigen achtergrondkleur de ruimte die ze verdienen — strak, zonder witte rand eromheen.</p>
+
+            <h2>Wat is er nieuw?</h2>
+            <ul>
+                <li><strong>Nieuwe toggle 'Geen witruimte om de tegel':</strong> Zet je deze aan, dan verdwijnt de witte achtergrond en de padding rondom de tegels. De afbeelding vult de tegel volledig.</li>
+                <li><strong>Één instelling voor alle tegels:</strong> De toggle geldt voor het hele widget — niet per tegel apart.</li>
+                <li><strong>Standaard uitgeschakeld:</strong> Bestaande widgets veranderen niet. Je zet de optie zelf aan als je dat wilt.</li>
+            </ul>
+
+            <h2>Waarom is dit handig?</h2>
+            <ul>
+                <li><strong>Meer ontwerpvrijheid:</strong> Upload tegels met een eigen achtergrondkleur en laat ze volledig tot hun recht komen, zonder storende witte rand.</li>
+                <li><strong>Strakker resultaat:</strong> Afbeeldingen sluiten naadloos aan op de achtergrond van de pagina, wat een professionelere uitstraling geeft.</li>
+                <li><strong>Geen extra werk:</strong> Bestaande tegels blijven ongewijzigd totdat je de instelling bewust aanzet.</li>
+            </ul>
+
+            <h2>Goed om te weten</h2>
+            <ul>
+                <li>Je vindt de nieuwe instelling bij het bewerken van het <strong>Direct naar</strong>-widget in <strong>Sibi Hub</strong>.</li>
+                <li>De toggle staat standaard <em>uit</em> — bestaande widgets veranderen dus niet vanzelf.</li>
+            </ul>
+        </div>
+
+        <!-- Kennisitem 30: Formuliervraag content bij een subcategorie -->
+        <div id="item-30" class="content-item" style="display: none;">
+            <h1>Formuliervraag content bij een subcategorie</h1>
+            <h2>Wat is formuliervraag content bij een subcategorie?</h2>
+            <p>Bij het opbouwen van een formulier kun je per subcategorie een stuk tekst toevoegen dat zichtbaar is voor de melder. Dit heet <strong>formuliervraag content</strong>. Met deze tekst geef je de melder extra uitleg of instructies die specifiek horen bij de subcategorie die ze hebben gekozen — nog voordat ze de vragen invullen.</p>
+            <p>Zo kun je per subcategorie precies de juiste context meegeven, zonder de melder te overstelpen met informatie die niet voor hen relevant is.</p>
+
+            <h2>Hoe voeg je instructies toe per subcategorie?</h2>
+            <ol>
+                <li>Ga naar het beheer van het formulier waaraan je instructies wilt toevoegen.</li>
+                <li>Open de <a href="#">subcategorie</a> waaraan je de instructies wilt koppelen.</li>
+                <li>Ga naar het tabblad <strong>Formuliervraag content</strong> of zoek het veld <strong>Instructies voor de melder</strong>.</li>
+                <li>Typ de instructietekst die de melder te zien krijgt bij deze subcategorie.</li>
+                <li>Sla de wijzigingen op.</li>
+            </ol>
+            <p>De melder ziet de instructies automatisch wanneer ze de betreffende subcategorie selecteren in het formulier.</p>
+
+            <h2>Goed om te weten</h2>
+            <ul>
+                <li>Je stelt de instructies per subcategorie apart in. Elke subcategorie kan een eigen, unieke tekst krijgen.</li>
+                <li>De instructies zijn alleen zichtbaar voor de melder op het moment dat zij die specifieke subcategorie kiezen.</li>
+                <li>Wil je weten hoe je een formulier opbouwt of subcategorieën aanmaakt? Lees dan het kennisitem <strong>Hoe configureer ik Zelfservice?</strong></li>
+                <li>Heb je vragen over formulierinzendingen? Bekijk dan het kennisitem <strong>Formulierinzendingen beheren</strong>.</li>
+            </ul>
+        </div>
+
+        <!-- Kennisitem 29: Openbare of besloten kennis (herschreven) -->
+        <div id="item-29" class="content-item" style="display: none;">
+            <h1>Openbare of besloten kennis</h1>
+            <h2>Wat is het verschil tussen openbare en besloten kennis?</h2>
+            <p>Binnen een groep in het <strong>Sociaal Intranet</strong> kun je kennisitems aanmaken en onderbrengen in kenniscategorieën. Per kenniscategorie en per kennisitem stel je de zichtbaarheid in: <strong>openbaar</strong> of <strong>besloten</strong>.</p>
+            <ul>
+                <li><strong>Openbare kennis:</strong> Zichtbaar voor alle medewerkers met toegang tot het <strong>Sociaal Intranet</strong> en wordt getoond in de zoekresultaten — ook voor niet-groepsleden.</li>
+                <li><strong>Besloten kennis:</strong> Alleen zichtbaar voor leden van de groep. Besloten categorieën en kennisitems zijn te herkennen aan het slotje. In de zoekresultaten verschijnen ze alleen voor medewerkers die er toegang toe hebben.</li>
+            </ul>
+
+            <h2>Openbare kennis in een besloten groep</h2>
+            <p>Een besloten groep is normaal gesproken alleen zichtbaar voor leden. Maar als je binnen een besloten groep een kennisitem op <strong>openbaar</strong> zet, dan is dat specifieke kennisitem wél zichtbaar voor iedereen. Ook wanneer de groep zelf besloten is.</p>
+            <p>Dit betekent:</p>
+            <ul>
+                <li>Het kennisitem verschijnt in de <strong>zoekresultaten</strong> voor alle medewerkers.</li>
+                <li>Alle medewerkers kunnen het kennisitem <strong>lezen</strong>.</li>
+                <li>Bestanden die gekoppeld zijn aan een openbaar kennisitem in een besloten groep, kunnen ook door iedereen bekeken worden.</li>
+                <li>De <strong>groep zelf</strong> blijft besloten — andere bijdragen, documenten en activiteiten in de groep zijn niet zichtbaar voor niet-leden.</li>
+            </ul>
+            <p>Dit is handig wanneer een team kennis wil beheren binnen hun eigen besloten groep, maar bepaalde kennisitems breed beschikbaar wil maken. Denk aan:</p>
+            <ul>
+                <li>Een <strong>ICT-team</strong> dat in een besloten groep werkt, maar handleidingen openbaar maakt voor alle collega's.</li>
+                <li>Een <strong>HR-afdeling</strong> die intern beleidsstukken bespreekt, maar veelgestelde vragen openbaar deelt.</li>
+                <li>Een <strong>facilitair team</strong> dat instructies over gebouwvoorzieningen breed beschikbaar stelt.</li>
+            </ul>
+
+            <h2>Zichtbaarheid wijzigen</h2>
+            <ul>
+                <li>De zichtbaarheid van een categorie kun je altijd wijzigen van <strong>Openbaar</strong> naar <strong>Besloten</strong> en andersom.</li>
+                <li>Wanneer je een categorie van <strong>Openbaar</strong> naar <strong>Besloten</strong> wijzigt, worden de items eronder automatisch ook <strong>Besloten</strong>.</li>
+                <li>Wanneer je een categorie van <strong>Besloten</strong> naar <strong>Openbaar</strong> wijzigt, worden de items <strong>niet</strong> automatisch <strong>Openbaar</strong>. Je moet de zichtbaarheid van elk item dan apart aanpassen.</li>
+                <li>De zichtbaarheid van een item kun je alleen wijzigen als de bovenliggende categorie <strong>Openbaar</strong> is. Is de categorie <strong>Besloten</strong>, dan is het item eronder automatisch ook <strong>Besloten</strong>.</li>
+            </ul>
+
+            <h2>Goed om te weten</h2>
+            <ul>
+                <li>De zichtbaarheid geldt per kennisitem. Binnen dezelfde groep kun je zowel openbare als besloten kennisitems hebben.</li>
+                <li>Openbare kennisitems verschijnen ook in de wekelijkse <strong>digest</strong> voor medewerkers die geen lid zijn van de groep.</li>
+                <li>Alleen de <strong>inhoud van het kennisitem</strong> (en gekoppelde bestanden) is openbaar. De overige groepsactiviteiten blijven afgeschermd voor niet-leden.</li>
+                <li>Wil je weten welke groepstypen er zijn? Lees het kennisitem <strong>Welke groepstypen zijn er?</strong></li>
+                <li>Wil je weten hoe je kennis aanmaakt? Lees het kennisitem <strong>Kennis aanmaken</strong>.</li>
+            </ul>
+        </div>
+
+        <!-- Kennisitem 28: Hoe vind ik meldingen terug? -->
+        <div id="item-28" class="content-item" style="display: none;">
+            <h1>Hoe doorzoek en filter ik meldingen?</h1>
+            <h2>Zoeken, filteren en filterblokken</h2>
+            <p>Het meldingenoverzicht in <strong>Zelfservice</strong> biedt zoeken, filteren en filterblokken om snel de juiste meldingen te vinden. Of je nu een specifieke melding zoekt of een overzicht wilt van alle openstaande meldingen in jouw oplosgroep — het overzicht helpt je op weg.</p>
+
             <h2>Hoe werkt het?</h2>
-            <p><strong>Printknop inschakelen (voor beheerders)</strong></p>
+
+            <h3>Zoeken</h3>
+            <p>Met het zoekveld doorzoek je meldingen op:</p>
+            <ul>
+                <li>Meldingnummer</li>
+                <li>Titel en beschrijving</li>
+                <li>Antwoorden op formuliervragen</li>
+                <li>Reacties</li>
+                <li>Naam van de melder</li>
+            </ul>
+
+            <h3>Filteren</h3>
+            <p>Klik op het filtericoon om het filterpaneel te openen. Je kunt filteren op:</p>
+            <ul>
+                <li><strong>Status:</strong> Filter op een specifieke status of statuscategorie (Nieuw, In uitvoering, Afgerond).</li>
+                <li><strong>Behandelaar:</strong> Filter op een specifieke behandelaar uit de oplosgroepen.</li>
+                <li><strong>Type:</strong> Filter op meldingstype (bijvoorbeeld Vraag, Incident of Storing).</li>
+                <li><strong>Categorie:</strong> Filter op subcategorie.</li>
+            </ul>
+            <p>Daarnaast zijn er snelfilters als checkboxes:</p>
+            <ul>
+                <li><strong>Alleen mijn meldingen:</strong> Toon alleen meldingen waar je melder of behandelaar bent.</li>
+                <li><strong>Inclusief gesloten meldingen:</strong> Toon ook afgeronde meldingen (standaard verborgen).</li>
+                <li><strong>Geen behandelaar:</strong> Toon alleen meldingen die nog niet zijn toegewezen.</li>
+            </ul>
+
+            <h3>Snelkeuzes</h3>
+            <p>Bovenaan het meldingenoverzicht staan <strong>filterblokken</strong>. Een filterblok is een tegel met een getal dat aangeeft hoeveel meldingen aan een bepaalde voorwaarde voldoen. Klik op het bekijkicoon in een filterblok om het overzicht direct op die selectie te filteren. Welke filterblokken je ziet hangt af van je rol:</p>
+            <ul>
+                <li><strong>Melder en behandelaar:</strong> Een filterblok met het aantal openstaande meldingen waar je bij betrokken bent.</li>
+                <li><strong>Oplosgroeplid:</strong> Een filterblok met meldingen zonder behandelaar in jouw oplosgroepen.</li>
+                <li><strong>Meldingenbeheerder:</strong> Een filterblok met het totaal aantal openstaande meldingen, en een filterblok met meldingen die langer dan 7 dagen geen activiteit hebben gehad.</li>
+            </ul>
+
+            <h2>Goed om te weten</h2>
+            <ul>
+                <li>Standaard toont het overzicht alleen meldingen met status "Nieuw" en "In uitvoering". Vink <strong>Inclusief gesloten meldingen</strong> aan om ook afgeronde meldingen te zien.</li>
+                <li>Zoeken en filteren zijn te combineren: zoek op een trefwoord en verfijn het resultaat met filters.</li>
+                <li>Wil je weten hoe je meldingen behandelt? Lees het kennisitem <strong>Hoe behandel ik meldingen?</strong></li>
+            </ul>
+        </div>
+
+        <!-- Kennisitem 27: Hoe heropen ik een melding? -->
+        <div id="item-27" class="content-item" style="display: none;">
+            <h1>Hoe heropen ik een melding?</h1>
+            <h2>Wanneer heropen je een melding?</h2>
+            <p>Is je melding afgesloten maar is het probleem nog niet opgelost? Als <strong>melder</strong> kun je een afgeronde melding heropenen. De melding wordt dan opnieuw opgepakt door de behandelaar.</p>
+
+            <h2>Hoe werkt het?</h2>
+            <ol>
+                <li>Open de melding die is afgesloten.</li>
+                <li>Schrijf een reactie waarin je toelicht waarom de melding heropend moet worden.</li>
+                <li>Vink de optie <strong>Heropenen</strong> aan bij het reactieveld.</li>
+                <li>Verstuur je reactie.</li>
+            </ol>
+            <p>De melding krijgt automatisch de vorige status terug en de behandelaar ontvangt een notificatie.</p>
+
+            <h2>Goed om te weten</h2>
+            <ul>
+                <li>Alleen de <strong>melder</strong> kan een afgeronde melding heropenen.</li>
+                <li>Een reactie is verplicht bij het heropenen — zo weet de behandelaar direct wat er nog speelt.</li>
+                <li>De melding gaat terug naar de status die hij had vóór het afsluiten.</li>
+                <li>Wil je weten hoe je een nieuwe melding aanmaakt? Lees het kennisitem <strong>Hoe maak ik een melding aan?</strong></li>
+            </ul>
+        </div>
+
+        <!-- Kennisitem 26: Hoe exporteer ik meldingen naar CSV? -->
+        <div id="item-26" class="content-item" style="display: none;">
+            <h1>Hoe exporteer ik meldingen naar CSV?</h1>
+            <h2>Wat is de meldingenexport?</h2>
+            <p>Als <strong>meldingenbeheerder</strong> kun je alle meldingen uit <strong>Zelfservice</strong> exporteren naar een CSV-bestand. Zo kun je meldingen analyseren in bijvoorbeeld Excel, bijvoorbeeld om inzicht te krijgen in doorlooptijden of het aantal meldingen per categorie.</p>
+
+            <h2>Hoe werkt het?</h2>
+            <ol>
+                <li>Ga naar het beheer van <strong>Zelfservice</strong>.</li>
+                <li>Klik op <strong>Exporteren</strong>.</li>
+                <li>Het CSV-bestand wordt direct gedownload.</li>
+            </ol>
+
+            <h3>Welke gegevens staan in de export?</h3>
+            <p>De export bevat de metadata van elke melding:</p>
+            <ul>
+                <li><strong>ID</strong></li>
+                <li><strong>Titel</strong></li>
+                <li><strong>Aanmaaktijdstip</strong></li>
+                <li><strong>Laatste updatetijdstip</strong></li>
+                <li><strong>Melder</strong></li>
+                <li><strong>Behandelaar</strong></li>
+                <li><strong>Status</strong></li>
+                <li><strong>Categorie</strong></li>
+                <li><strong>Subcategorie</strong></li>
+                <li><strong>Type</strong></li>
+            </ul>
+
+            <h2>Goed om te weten</h2>
+            <ul>
+                <li>Alleen de <strong>meldingenbeheerder</strong> kan meldingen exporteren.</li>
+                <li>De export bevat alle meldingen in één keer — er is geen filter op datum of status.</li>
+                <li>Antwoorden op extra formuliervragen per subcategorie worden nog niet meegenomen in de export.</li>
+                <li>Wil je weten hoe je de module inricht? Lees het kennisitem <strong>Hoe configureer ik Zelfservice?</strong></li>
+            </ul>
+        </div>
+
+        <!-- Kennisitem 25: Wie heeft er toegang tot het Sociaal Intranet? -->
+        <div id="item-25" class="content-item" style="display: none;">
+            <h1>Wie heeft er toegang tot het Sociaal Intranet?</h1>
+            <h2>Wat is de toegangsregel?</h2>
+            <p>Het <strong>Sociaal Intranet</strong> is beschikbaar voor iedereen in de fase <strong>Werken & ontwikkelen</strong>. Dat betekent: vanaf je eerste werkdag tot en met je laatste werkdag heb je toegang.</p>
+
+            <h2>Hoe werkt het?</h2>
+            <p>Zodra een medewerker start in de organisatie en in de fase <strong>Werken & ontwikkelen</strong> terechtkomt, krijgt diegene automatisch toegang tot het <strong>Sociaal Intranet</strong>. De toegang blijft actief zolang de medewerker in deze fase zit — dus gedurende het volledige dienstverband.</p>
+            <p>Na de laatste werkdag vervalt de toegang automatisch.</p>
+
+            <h2>Goed om te weten</h2>
+            <ul>
+                <li>Medewerkers die nog niet gestart zijn (bijvoorbeeld in de fase Onboarding vóór de eerste werkdag) hebben nog geen toegang.</li>
+                <li>Medewerkers die uit dienst zijn, hebben geen toegang meer tot het <strong>Sociaal Intranet</strong>.</li>
+                <li>De fase <strong>Werken & ontwikkelen</strong> wordt bepaald door de gegevens in het HR-systeem. De beheerder hoeft hier niets handmatig voor in te stellen.</li>
+            </ul>
+        </div>
+
+        <!-- Kennisitem 24: Hoe zie ik of een collega beschikbaar is? -->
+        <div id="item-24" class="content-item" style="display: none;">
+            <h1>Hoe zie ik of een collega beschikbaar is?</h1>
+            <h2>Wat is de beschikbaarheidsstatus?</h2>
+            <p>In het <strong>Sociaal Intranet</strong> kun je in één oogopslag zien of een collega beschikbaar is. De beschikbaarheidsstatus wordt weergegeven als een gekleurd bolletje op het profielfoto van een collega. Deze status wordt automatisch opgehaald uit de Microsoft-omgeving van je organisatie.</p>
+
+            <h2>Hoe werkt het?</h2>
+
+            <h3>Waar zie je de status?</h3>
+            <p>Het gekleurde bolletje verschijnt op twee plekken:</p>
+            <ul>
+                <li><strong>Collega-overzicht:</strong> Bij elk profielfoto in de lijst met collega's.</li>
+                <li><strong>Medewerkerdetailpaneel:</strong> Op het profiel wanneer je op een collega klikt.</li>
+            </ul>
+
+            <h3>Wat betekenen de kleuren?</h3>
+            <ul>
+                <li><strong>Groen:</strong> Beschikbaar — je collega is online en bereikbaar.</li>
+                <li><strong>Rood:</strong> Niet beschikbaar — je collega is bezig (bijvoorbeeld in een vergadering).</li>
+                <li><strong>Geel:</strong> Afwezig — je collega is even weg of heeft de status op afwezig gezet.</li>
+                <li><strong>Grijs:</strong> Onbekend of offline — je collega is niet ingelogd of de status kan niet worden opgehaald.</li>
+            </ul>
+
+            <h3>Hoe wordt de status bijgewerkt?</h3>
+            <p>De beschikbaarheidsstatus wordt elke 10 minuten automatisch ververst. De status die je ziet kan dus een paar minuten afwijken van de werkelijke situatie.</p>
+
+            <h2>Goed om te weten</h2>
+            <ul>
+                <li>Deze functie werkt alleen als je organisatie gebruikmaakt van een Microsoft-omgeving (Microsoft 365).</li>
+                <li>De beheerder moet de functie eerst activeren in <strong>Sibi Hub</strong>. Standaard staat de functie uit.</li>
+                <li>De koppeling vereist de <strong>Presence.Read.All</strong>-scope in Microsoft. Je beheerder regelt dit bij de inrichting.</li>
+                <li>Je kunt de status niet handmatig aanpassen in het <strong>Sociaal Intranet</strong>. De weergave volgt altijd je Microsoft-status.</li>
+            </ul>
+        </div>
+
+        <!-- Kennisitem 23: Wie kan wat zien en doen in Zelfservice? -->
+        <div id="item-23" class="content-item" style="display: none;">
+            <h1>Wie kan wat zien en doen in Zelfservice?</h1>
+            <h2>Welke rollen zijn er?</h2>
+            <p>In <strong>Zelfservice</strong> hebben verschillende rollen elk hun eigen rechten. Dit kennisitem geeft een overzicht van wie wat kan zien en doen.</p>
+            <ul>
+                <li><strong>Melder:</strong> De collega die de melding heeft aangemaakt.</li>
+                <li><strong>Behandelaar:</strong> Het lid van de oplosgroep dat is toegewezen aan de melding.</li>
+                <li><strong>Oplosgroepleden:</strong> Alle leden van de groep die is gekoppeld aan de subcategorie van de melding (inclusief de behandelaar).</li>
+                <li><strong>Volger:</strong> Een collega die de melding volgt om notificaties te ontvangen. Volgen geeft geen extra rechten.</li>
+            </ul>
+
+            <h2>Wat kan elke rol zien?</h2>
+            <h3>Meldingen in het overzicht</h3>
+            <ul>
+                <li><strong>Melder:</strong> Ziet alleen eigen meldingen.</li>
+                <li><strong>Oplosgroepleden:</strong> Zien alle meldingen van de subcategorieën waar hun oplosgroep aan gekoppeld is, plus hun eigen meldingen.</li>
+            </ul>
+
+            <h3>Reacties op een melding</h3>
+            <ul>
+                <li><strong>Openbare reacties</strong> zijn zichtbaar voor iedereen die toegang heeft tot de melding: melder, behandelaar, oplosgroepleden en volgers.</li>
+                <li><strong>Interne reacties</strong> zijn <em>alleen</em> zichtbaar voor de behandelaar en leden van de oplosgroep. De melder en externe volgers zien interne reacties niet, tenzij zij ook lid zijn van de oplosgroep.</li>
+            </ul>
+
+            <h2>Wat kan elke rol doen?</h2>
+            <h3>Melder</h3>
+            <ul>
+                <li>Melding aanmaken</li>
+                <li>Openbaar reageren op de eigen melding</li>
+                <li>Bestanden toevoegen aan een reactie</li>
+                <li>De melding volgen en ontvolgen</li>
+                <li>Een afgesloten melding heropenen</li>
+            </ul>
+
+            <h3>Behandelaar</h3>
+            <p>De behandelaar heeft alle rechten van een oplosgroeplid, plus:</p>
+            <ul>
+                <li>De status van de melding wijzigen</li>
+                <li>De categorie van de melding wijzigen</li>
+            </ul>
+
+            <h3>Oplosgroepleden</h3>
+            <ul>
+                <li>Alle meldingen van hun subcategorieën bekijken</li>
+                <li>Zichzelf of een collega uit de oplosgroep toewijzen als behandelaar</li>
+                <li>Openbaar reageren</li>
+                <li>Intern reageren (alleen zichtbaar voor de oplosgroep)</li>
+                <li>Bestanden toevoegen aan een reactie</li>
+                <li>Volgers toevoegen aan en verwijderen van een melding</li>
+                <li>De melding volgen en ontvolgen</li>
+            </ul>
+
+            <h3>Volger</h3>
+            <ul>
+                <li>De melding en openbare reacties bekijken</li>
+                <li>Ontvolgen</li>
+            </ul>
+            <p>Een volger kan niet reageren, de status wijzigen of een behandelaar toewijzen. Volgen geeft uitsluitend notificaties.</p>
+
+            <h2>Notificaties per rol</h2>
+            <p>Alle betrokkenen en volgers ontvangen notificaties in het <strong>Sociaal Intranet</strong> en per e-mail bij:</p>
+            <ul>
+                <li>Een nieuwe openbare reactie</li>
+                <li>Een statuswijziging</li>
+                <li>Een nieuwe behandelaar</li>
+            </ul>
+            <p>Daarnaast:</p>
+            <ul>
+                <li><strong>Interne reacties</strong> genereren alleen notificaties voor oplosgroepleden en de behandelaar. De melder en externe volgers ontvangen hier geen notificatie van.</li>
+                <li>Een collega die als <strong>volger wordt toegevoegd</strong> ontvangt daar een notificatie van.</li>
+                <li>Je ontvangt nooit een notificatie van je eigen acties.</li>
+            </ul>
+
+            <h2>Goed om te weten</h2>
+            <ul>
+                <li>Het is op de melding zichtbaar wie deze volgt.</li>
+                <li>Alleen de <strong>behandelaar</strong> kan de status en categorie wijzigen. Andere oplosgroepleden kunnen dit niet.</li>
+                <li>Een oplosgroeplid dat nog niet als behandelaar is toegewezen, kan zichzelf toewijzen door op <strong>Behandelaar worden</strong> te klikken.</li>
+                <li>Wil je weten hoe je een melding aanmaakt? Lees het kennisitem <strong>Hoe maak ik een melding aan?</strong></li>
+                <li>Wil je weten hoe je meldingen behandelt? Lees het kennisitem <strong>Hoe behandel ik meldingen?</strong></li>
+                <li>Wil je de module configureren? Lees het kennisitem <strong>Hoe configureer ik Zelfservice?</strong></li>
+            </ul>
+        </div>
+
+        <!-- Productupdate 21: Zelfservice in Sociaal Intranet -->
+        <div id="item-21" class="content-item" style="display: none;">
+            <h1>Productupdate: Zelfservice in Sociaal Intranet</h1>
+            <p>Nieuw in het <strong>Sociaal Intranet</strong>: de module <strong>Zelfservice</strong>. Medewerkers kunnen nu zelf meldingen indienen voor vragen, storingen of verzoeken. De melding komt automatisch bij de juiste collega's terecht en iedereen kan de voortgang volgen.</p>
+
+            <h2>Wat kun je ermee?</h2>
+            <ul>
+                <li><strong>Meldingen indienen:</strong> Kies een categorie, vul een formulier in en dien je melding in.</li>
+                <li><strong>Meldingen behandelen:</strong> Meldingen komen bij de juiste oplosgroep terecht, die ze kan toewijzen, beantwoorden en afsluiten.</li>
+                <li><strong>Op de hoogte blijven:</strong> Volg meldingen en ontvang notificaties bij nieuwe reacties en statuswijzigingen.</li>
+            </ul>
+
+            <h2>Goed om te weten</h2>
+            <ul>
+                <li>De module wordt geactiveerd via <strong>Sibi Hub</strong> onder <strong>Sociaal Intranet</strong> &gt; <strong>Producten</strong>.</li>
+                <li>Wil je weten hoe je een melding aanmaakt? Lees het kennisitem <strong>Hoe maak ik een melding aan?</strong></li>
+                <li>Wil je weten hoe de oplosgroep meldingen behandelt? Lees het kennisitem <strong>Hoe behandel ik meldingen?</strong></li>
+                <li>Wil je de module configureren? Lees het kennisitem <strong>Hoe configureer ik Zelfservice?</strong></li>
+            </ul>
+        </div>
+
+        <!-- Kennisitem 20: Hoe configureer ik Zelfservice? (voor beheerders) -->
+        <div id="item-20" class="content-item" style="display: none;">
+            <h1>Hoe configureer ik Zelfservice?</h1>
+            <h2>Wat is Zelfservice?</h2>
+            <p><strong>Zelfservice</strong> is een module in het <strong>Sociaal Intranet</strong> waarmee medewerkers zelf meldingen kunnen indienen voor vragen, storingen of verzoeken. Als meldingenbeheerder richt je de module in: je maakt categorieën aan, koppelt oplosgroepen, stelt formuliervragen in en beheert de statussen. Zo komen meldingen automatisch bij de juiste collega's terecht.</p>
+
+            <h2>Hoe werkt het?</h2>
+
+            <h3>Module activeren</h3>
             <ol>
                 <li>Ga naar <strong>Sibi Hub</strong>.</li>
-                <li>Navigeer naar <strong>Sociaal Intranet</strong> &gt; <strong>Instellingen</strong> &gt; <strong>Algemeen</strong> (of ga direct naar <em>/beheer/sociaal-intranet/instellingen/algemeen</em>).</li>
-                <li>Zoek de instelling <strong>Printknop onder kennisitems tonen</strong> in het onderdeel <strong>Kennis</strong>.</li>
-                <li>Zet de schakelaar aan.</li>
-                <li>Sla de instellingen op.</li>
+                <li>Navigeer naar <strong>Sociaal Intranet</strong> &gt; <strong>Producten</strong>.</li>
+                <li>Activeer het product <strong>Zelfservice</strong>.</li>
+                <li>Optioneel: pas de naam aan via een alias (bijvoorbeeld "Servicedesk" of "Helpdesk").</li>
             </ol>
-            <p><strong>Een kennisitem printen (voor medewerkers)</strong></p>
+
+            <h3>Meldingenbeheerder toewijzen</h3>
+            <p>De rol <strong>Meldingenbeheerder</strong> geeft toegang tot het beheer van categorieën, subcategorieën en statussen. Wijs deze rol toe aan de collega's die de module gaan inrichten. De medewerker ontvangt hierover een e-mail.</p>
+            <p>De instellingen zijn ook zichtbaar voor de <strong>Sibi Hub Beheerder</strong>.</p>
+
+            <h3>Hoofdcategorieën aanmaken</h3>
+            <p>Hoofdcategorieën zijn de eerste keuze voor medewerkers bij het aanmaken van een melding (bijvoorbeeld ICT, HR, Facilitair).</p>
             <ol>
-                <li>Open het kennisitem dat je wilt printen.</li>
-                <li>Klik op de <strong>printknop</strong> onderaan het kennisitem.</li>
-                <li>Het afdrukvenster van je browser opent. Hier kun je de printer selecteren en het document afdrukken of opslaan als PDF.</li>
-            </ol>
-            <h2>Goed om te weten</h2>
-            <ul>
-                <li>De printknop is alleen zichtbaar als de beheerder deze functie heeft ingeschakeld.</li>
-                <li>Bij kennisitems die onderdeel zijn van een Kwaliteitsroutine wordt automatisch een voorblad toegevoegd met metadata en het organisatielogo.</li>
-                <li>De printknop wordt niet getoond bij revisies van een kennisitem.</li>
-                <li>Je kunt ook altijd printen via de standaard browserfunctie (Ctrl+P of Cmd+P), maar dan wordt er geen voorblad met metadata gegenereerd.</li>
-            </ul>
-        </div>
-        <div id="item-12" class="content-item" style="display: none;">
-            <h1>Productupdate: E-mailnotificaties voor formulieren</h1>
-            <p>Vanaf nu kun je bij formulieren instellen dat notificaties ook per e-mail worden verstuurd. Zo hoef je niet meer in te loggen op het Sociaal Intranet om te zien dat er een nieuwe inzending is binnengekomen.</p>
-            <h3>Wat is er nieuw?</h3>
-            <p>Bij het instellen van notificaties voor een formulier heb je nu twee opties:</p>
-            <ul>
-                <li><strong>Notificeer in Sociaal Intranet:</strong> Selecteer collega's die een notificatie ontvangen binnen het platform (zoals voorheen).</li>
-                <li><strong>Notificeer per e-mailbericht:</strong> Voer één of meerdere e-mailadressen in. Bij elke nieuwe inzending wordt automatisch een e-mail verstuurd naar deze adressen.</li>
-            </ul>
-            <p>Je kunt beide opties tegelijk gebruiken, of slechts één van de twee. Minimaal één notificatiemethode moet ingevuld zijn.</p>
-            <h3>Waarom is dit handig?</h3>
-            <ul>
-                <li><strong>Gedeelde mailboxen:</strong> Stuur notificaties naar een functionele mailbox (bijvoorbeeld hr@jouworganisatie.nl) die door meerdere collega's wordt beheerd.</li>
-                <li><strong>Sneller reageren:</strong> Zie direct in je e-mail dat er een nieuwe inzending is, zonder dat je hoeft in te loggen.</li>
-                <li><strong>Flexibel werkproces:</strong> Combineer e-mail met intranet-notificaties, of kies de methode die het beste past bij jouw werkwijze.</li>
-            </ul>
-            <h3>Goed om te weten</h3>
-            <ul>
-                <li>Om meerdere e-mailadressen toe te voegen, typ je het adres en druk je op Enter. Elk adres wordt als apart label getoond.</li>
-                <li>Wil je weten hoe je dit precies instelt? Lees het kennisitem: <strong>Hoe stel ik notificaties in voor een formulier?</strong></li>
-            </ul>
-        </div>
-        <div id="item-11" class="content-item" style="display: none;">
-            <h1>Hoe stel ik notificaties in voor een formulier?</h1>
-            <h2>Wat is de functionaliteit?</h2>
-            <p>Als groepsbeheerder kun je instellen wie een melding ontvangt wanneer er een nieuwe formulierinzending binnenkomt. Je kunt kiezen voor notificaties binnen het Sociaal Intranet, per e-mail, of beide.</p>
-            <h2>Hoe werkt het?</h2>
-            <ol>
-                <li>Ga naar de groep waarin het formulier staat.</li>
-                <li>Klik in het groepsmenu op <strong>Formulieren</strong>.</li>
-                <li>Klik op het <strong>wijzig-icoon</strong> (potloodje) naast het formulier dat je wilt aanpassen.</li>
-                <li>Scroll naar het onderdeel <strong>Notificaties</strong>.</li>
-                <li>Stel de gewenste notificatiemethode(s) in:
-                    <ul>
-                        <li><strong>Notificeer in Sociaal Intranet:</strong> Selecteer één of meerdere collega's die een notificatie in het platform ontvangen.</li>
-                        <li><strong>Notificeer per e-mailbericht:</strong> Typ een e-mailadres en druk op Enter om het toe te voegen. Herhaal dit voor meerdere adressen.</li>
-                    </ul>
-                </li>
+                <li>Ga naar het beheer van <strong>Zelfservice</strong>.</li>
+                <li>Klik op <strong>Hoofdcategorieën</strong>.</li>
+                <li>Klik op <strong>Nieuwe hoofdcategorie</strong>.</li>
+                <li>Vul een <strong>naam</strong> in en kies een <strong>icoon</strong>.</li>
+                <li>Zet de categorie op <strong>actief</strong>.</li>
                 <li>Klik op <strong>Opslaan</strong>.</li>
             </ol>
-            <h2>Goed om te weten</h2>
-            <ul>
-                <li>Minimaal één van de twee notificatiemethodes moet ingevuld zijn. Beide velden mogen niet tegelijk leeg zijn.</li>
-                <li>Je kunt beide methodes combineren. Zo ontvangen collega's een melding in het Sociaal Intranet én wordt er een e-mail verstuurd naar een gedeelde mailbox.</li>
-                <li>E-mailnotificaties zijn handig voor functionele mailboxen die door meerdere collega's worden beheerd, zodat inzendingen direct kunnen worden opgepakt en verdeeld.</li>
-                <li>Om een e-mailadres te verwijderen, klik je op het kruisje bij het adres.</li>
-            </ul>
-        </div>
-        <div id="item-10" class="content-item" style="display: none;">
-            <h1>Productupdate: Kennisitems printen met voorblad vanuit Kwaliteitsroutines</h1>
-            <p>Het is nu mogelijk om kennisitems direct vanuit het platform te printen, compleet met een professioneel voorblad wanneer deze onderdeel zijn van een Kwaliteitsroutine.</p>
-            <ul>
-                <li><strong>Printen met één klik:</strong> Bij elk kennisitem is een printknop toegevoegd.</li>
-                <li><strong>Automatisch voorblad:</strong> Wanneer je een kennisitem print dat gekoppeld is aan een Kwaliteitsroutine, wordt er automatisch een voorblad gegenereerd. Dit voorblad bevat belangrijke informatie zoals de titel, de versie en de eigenaar, wat zorgt voor een compleet en officieel document.</li>
-                <li><strong>Handig voor offline gebruik:</strong> Deze functie is ideaal voor situaties waarin je een fysieke kopie van een procedure of werkinstructie nodig hebt, bijvoorbeeld voor audits, trainingen of om op te hangen op de werkplek.</li>
-            </ul>
-        </div>
-        <div id="item-9" class="content-item" style="display: none;">
-            <h1>Productupdate: Nieuwe vraagtypen en verbeteringen in formulieren</h1>
-            <p>We hebben het beheer van formulieren in het platform verder uitgebreid met nieuwe vraagtypen en handige verbeteringen.</p>
-            <ul>
-                <li><strong>Nieuwe vraagtypen:</strong> Je kunt nu eenvoudig een "Bestand uploaden" vraag toevoegen, zodat gebruikers bestanden kunnen meesturen. Daarnaast is het vraagtype "Uitklapbare keuzelijst" (dropdown) toegevoegd voor compactere meerkeuzevragen.</li>
-                <li><strong>"Anders namelijk" optie voor meerkeuzevragen:</strong> Bij de vraagtypen 'Selectievakjes' (checkbox), 'Keuzerondjes' (radio) en 'Uitklapbare keuzelijst' is nu de optie "Anders namelijk" beschikbaar. Dit geeft respondenten de mogelijkheid om een eigen antwoord in te vullen als de voorgedefinieerde opties niet van toepassing zijn.
-                    <ul>
-                        <li>Antwoorden die via "Anders namelijk" zijn gegeven, worden nu duidelijk herkenbaar in de inzendingen weergegeven met een prefix zoals "Anders, namelijk: [jouw ingevulde antwoord]".</li>
-                    </ul>
-                </li>
-                <li><strong>Verbeterde stabiliteit:</strong> We hebben de stabiliteit verbeterd bij het gebruik van lange teksten in de opties van een keuzelijst, waardoor onverwachte foutmeldingen worden voorkomen.</li>
-            </ul>
-        </div>
-        <div id="item-8" class="content-item" style="display: none;">
-            <h1>Productupdate: Kleine verbeteringen en fixes (januari 2026)</h1>
-            <p>We hebben weer een aantal kleinere, maar waardevolle verbeteringen en fixes doorgevoerd in het platform. Hieronder een overzicht van de belangrijkste wijzigingen.</p>
-            <ul>
-                <li><strong>Schonere zoekresultaten:</strong> De titel van een kennisitem wordt niet meer dubbel getoond in de zoekresultaten, wat zorgt voor een rustiger beeld.</li>
-                <li><strong>Verbeterde weergave van vacatures:</strong> Opsommingstekens (zoals bullet points) in vacatureteksten worden nu correct weergegeven.</li>
-                <li><strong>Duidelijkere formulier-notificaties:</strong> Notificaties voor nieuwe formulier-inzendingen worden nu samengevoegd zolang ze ongelezen zijn. Zo blijft je notificatie-overzicht opgeruimd. De link in de notificatie leidt je nu ook direct naar het tabblad met de inzendingen.</li>
-                <li><strong>Betere YouTube-thumbnails:</strong> We hebben de manier waarop YouTube-video's worden getoond verbeterd. Hierdoor wordt altijd de juiste thumbnail ingeladen en zie je geen lege plaatjes meer.</li>
-                <li><strong>Verfijnde notificaties:</strong> De weergave van notificaties in het Sociaal Intranet is verfijnd. Je ziet nu duidelijker wie de actie heeft uitgevoerd en een voorbeeld van de betreffende reactie.</li>
-                <li><strong>Waarschuwing bij onopgeslagen kennis:</strong> Net als bij bijdragen, krijg je nu een waarschuwing als je een kennisitem wilt verlaten terwijl er nog niet-opgeslagen wijzigingen zijn. Zo voorkom je dat je per ongeluk werk kwijtraakt.</li>
-                <li><strong>Flow-overzicht verbeterd:</strong> Inactieve flows vallen nu meer op door een rode kleur, en het overzicht wordt gesorteerd op de laatst gewijzigde flow, zodat je recente werk bovenaan staat.</li>
-                <li><strong>Veiliger activatieverzoeken versturen:</strong> De optie om in bulk activatieverzoeken te sturen naar <em>alle</em> collega's is verwijderd van het algemene collega-overzicht om onbedoeld massaal uitsturen te voorkomen.</li>
-                <li><strong>Logischer beheer 'Laatste werkdag':</strong> In Sibi Hub is het veld 'Laatste werkdag' nu alleen zichtbaar en invulbaar als er ook een 'Datum uit dienst' is ingevuld.</li>
-            </ul>
-        </div>
-        <div id="item-7" class="content-item" style="display: none;">
-            <h1>Productupdate: Vind collega's op basis van Specialisatie</h1>
-            <h3>Wat is er nieuw?</h3>
-            <p>Het is nu makkelijker dan ooit om een collega met specifieke kennis te vinden. De collega-pagina in het Sociaal Intranet is uitgebreid met de mogelijkheid om te filteren op <strong>Specialisatie</strong>.</p>
-            <p>Daarnaast is het zoekveld op de collega-pagina verbeterd: deze doorzoekt nu ook de specialisaties van je collega's. Ook kun je direct vanuit een medewerkerpaneel doorklikken op een specialisatie. Je wordt dan meteen naar het collega-overzicht geleid, gefilterd op die specifieke vaardigheid.</p>
-            <h3>Waarom is dit handig?</h3>
-            <ul>
-                <li><strong>Vind snel een expert:</strong> Zoek je een expert voor een project, heb je een vraag over een specifiek onderwerp, of wil je gewoon weten wie welke kennis in huis heeft? Met deze nieuwe filter- en zoekmogelijkheden vind je sneller de juiste persoon.</li>
-                <li><strong>Bevordert kennisdeling:</strong> De nieuwe functionaliteit maakt het eenvoudiger om binnen de organisatie samen te werken en kennis uit te wisselen.</li>
-            </ul>
-            <h3>Goed om te weten</h3>
-            <ul>
-                <li>Deze functionaliteit werkt het best wanneer collega's hun specialisaties hebben ingevuld op hun profiel. Stimuleer je collega's om hun profiel compleet te maken!</li>
-            </ul>
-        </div>
-        <div id="item-6" class="content-item" style="display: none;">
-            <h1>Productupdate: Nieuwsbijdragen opslaan als Concept</h1>
-            <h3>Wat is er nieuw?</h3>
-            <p>Het is nu mogelijk om een nieuwsbijdrage op te slaan als concept. In plaats van direct te publiceren, kun je bij het aanmaken of bewerken van een nieuwsbijdrage kiezen om deze als concept te bewaren. De concept-bijdrage verschijnt dan alleen zichtbaar voor de auteur en beheerders bovenaan de tijdlijn van de groep, zodat je er op een later moment verder aan kunt werken.</p>
-            <h3>Waarom is dit handig?</h3>
-            <ul>
-                <li><strong>Flexibiliteit:</strong> Werk op je eigen tempo aan een nieuwsbericht zonder het direct te hoeven publiceren.</li>
-                <li><strong>Voorbereiding:</strong> Zet berichten van tevoren klaar en publiceer ze met één klik op het juiste moment.</li>
-                <li><strong>Kwaliteitscontrole:</strong> Voorkom het publiceren van onvolledige berichten. Je kunt een concept eerst intern laten reviewen voordat het live gaat.</li>
-            </ul>
-            <h3>Goed om te weten</h3>
-            <ul>
-                <li>Een concept is alleen zichtbaar voor de auteur(s) en de groepsbeheerder(s).</li>
-                <li>Een concept met een publicatiedatum in de toekomst wordt <strong>niet</strong> automatisch gepubliceerd. Je moet de bijdrage altijd handmatig publiceren.</li>
-                <li>Een reeds gepubliceerde nieuwsbijdrage kan weer teruggezet worden naar een concept.</li>
-                <li>Concepten kunnen niet worden doorgeplaatst naar andere groepen.</li>
-            </ul>
-        </div>
-        <div id="item-5" class="content-item" style="display: none;">
-            <h1>Productupdate: Nieuwe inlogoptie 'Automatisch doorsturen'</h1>
-            <h3>Wat is er nieuw?</h3>
-            <p>Onder de Identiteitsinstellingen in Sibi Hub is een nieuwe optie toegevoegd: <strong>Automatisch doorsturen</strong>. Deze instelling geeft beheerders controle over de inlog-flow wanneer er een externe Identity Provider (zoals Microsoft Azure) wordt gebruikt.</p>
-            <p>Je kunt kiezen uit drie opties:</p>
-            <ul>
-                <li><strong>Altijd:</strong> De medewerker wordt altijd direct doorgestuurd naar de inlogpagina van de externe provider, en slaat de Sibi-inlogpagina over.</li>
-                <li><strong>Nooit:</strong> De medewerker ziet altijd eerst de Sibi-inlogpagina en moet bewust kiezen om door te gaan naar de externe provider.</li>
-                <li><strong>Onthouden:</strong> De keuze van de medewerker bij de eerste keer inloggen wordt onthouden in een cookie. Bij volgende bezoeken wordt de medewerker automatisch doorgestuurd, wat zorgt voor een snellere ervaring.</li>
-            </ul>
-            <h3>Waarom is dit handig?</h3>
-            <ul>
-                <li><strong>Flexibele inlog-flow:</strong> Kies de methode die het beste past bij het beleid en de wensen van jouw organisatie.</li>
-                <li><strong>Verhoogd gebruikersgemak:</strong> De opties 'Altijd' en 'Onthouden' zorgen voor een snellere en soepelere inlog-ervaring met minder klikken.</li>
-                <li><strong>Duidelijkheid voor de gebruiker:</strong> De 'Nooit' optie biedt uitkomst wanneer het expliciet tonen van de Sibi-inlogpagina gewenst is.</li>
-            </ul>
-            <h3>Goed om te weten</h3>
-            <ul>
-                <li>Deze optie is alleen beschikbaar en van toepassing als er voor de Sibi-omgeving een externe Identity Provider (IDP), zoals Microsoft Azure, is ingesteld.</li>
-            </ul>
-        </div>
-        <div id="item-4" class="content-item" style="display: none;">
-            <h1>Productupdate: Meer context bij antwoorden op pop-ups in de Bind Inbox</h1>
-            <h3>Wat is er nieuw?</h3>
-            <p>Wanneer een medewerker reageert op aandacht die via <strong>Sibi Pop</strong> is verstuurd (bijvoorbeeld door een reactie te plaatsen of een aantal sterren te geven), wordt dit antwoord nu direct gelinkt aan het oorspronkelijke bericht in de Bind Inbox. Hierdoor blijft de context van het gesprek altijd duidelijk, ook als er andere communicatie tussendoor is geweest.</p>
-            <p>Voorheen was dit verband niet altijd helder, wat voor verwarring kon zorgen.</p>
-            <h3>Waarom is dit handig?</h3>
-            <ul>
-                <li><strong>Altijd Duidelijk:</strong> Je ziet direct bij welke vraag een bepaald antwoord hoort.</li>
-                <li><strong>Geen Verwarring:</strong> De volledige context van een gesprek blijft behouden, zelfs als er meerdere gesprekken of pop-ups door elkaar lopen.</li>
-                <li><strong>Efficiënter Werken:</strong> Beheerders kunnen sneller en accurater reageren omdat ze niet meer hoeven te puzzelen waar een reactie over gaat.</li>
-            </ul>
-            <h3>Goed om te weten</h3>
-            <p>Deze verbetering is van toepassing op alle aandacht die via Sibi Pop wordt verstuurd en waarop een medewerker kan reageren (zoals via een reactie of een sterren-rating).</p>
-        </div>
-        <div id="item-2" class="content-item" style="display: none;">
-            <h1>Hoe beheer ik mijn werktijden?</h1>
-            <h2>Wat is de functionaliteit?</h2>
-            <p>Je kunt nu eenvoudig je werktijden instellen op je profielpagina. Dit geeft je collega's inzicht in je beschikbaarheid. Je kunt per dag aangeven op welke tijden je werkt, of aangeven dat je onregelmatige werktijden hebt.</p>
-            <h2>Wat is de waarde voor de lezer?</h2>
-            <p>Door je werktijden in te vullen, weten je collega's wanneer je wel en niet beschikbaar bent. Dit maakt het plannen van afspraken en het samenwerken een stuk eenvoudiger en efficiënter.</p>
-            <h2>Hoe werkt het?</h2>
+
+            <h3>Subcategorieën aanmaken</h3>
+            <p>Subcategorieën zijn specifiekere onderwerpen binnen een hoofdcategorie. Per subcategorie bepaal je welke oplosgroep de meldingen ontvangt en welke velden het formulier bevat.</p>
             <ol>
-              <li>Ga naar je profiel door rechtsboven op je naam of profielfoto te klikken.</li>
-              <li>Klik op 'Profiel bewerken'.</li>
-              <li>Scroll naar het onderdeel 'Werktijden'.</li>
-              <li>Per dag kun je met een schakelaar aangeven of je die dag werkt. Zet je de schakelaar aan, dan kun je de begin- en eindtijd invullen.</li>
-              <li>Werk je op onregelmatige tijden? Zet dan de schakelaar 'Ik werk onregelmatig' aan. De specifieke daginstellingen worden dan verborgen.</li>
-              <li>Sla je wijzigingen op.</li>
-            </ol>
-            <h2>Goed om te weten</h2>
-            <ul>
-              <li>Je ingevulde werktijden zijn voor je collega's zichtbaar op je medewerkerpaneel.</li>
-              <li>Deze functionaliteit is ook beschikbaar in de welkomstwizard wanneer je voor het eerst inlogt.</li>
-            </ul>
-        </div>
-        <div id="item-3" class="content-item" style="display: none;">
-            <h1>Productupdate: Eenvoudig je werktijden beheren</h1>
-            <p>In de nieuwste update hebben we het eenvoudiger gemaakt om je werktijden te beheren. Je kunt nu direct vanaf je profielpagina je beschikbaarheid per dag instellen of aangeven dat je onregelmatig werkt.</p>
-            <p>Zo weten je collega's direct wanneer ze bij je terecht kunnen. Wel zo makkelijk!</p>
-            <p>Meer weten? Lees het kennisitem: <strong>Hoe beheer ik mijn werktijden?</strong></p>
-        </div>
-        <div id="item-1" class="content-item" style="display: none;">
-            <h1>Hoe maak en bewerk ik een formulier?</h1>
-            <h4>Wat is de functionaliteit?</h4>
-            <p>Als groepsbeheerder kun je binnen je eigen groep formulieren aanmaken om informatie van medewerkers te verzamelen. Dit kennisitem legt stap voor stap uit hoe je een nieuw formulier aanmaakt en een bestaand formulier kunt wijzigen.</p>
-            <h4>Gebruiksinstructies</h4>
-            <p><strong>Een nieuw formulier aanmaken</strong></p>
-            <ol>
-                <li>Ga naar de groep waarin je het formulier wilt aanmaken.</li>
-                <li>Klik in het groepsmenu op <strong>Formulieren</strong>.</li>
-                <li>Klik op de knop <strong>+ Nieuw formulier</strong>.</li>
-                <li>Je komt nu op de instellingenpagina van het formulier. Vul de volgende velden in:
-                    <ul>
-                        <li><strong>Titel:</strong> Geef het formulier een duidelijke en herkenbare naam.</li>
-                        <li><strong>Omschrijving:</strong> Leg kort uit waar het formulier voor dient. Deze tekst is zichtbaar voor de medewerker die het formulier invult.</li>
-                        <li><strong>Succesmelding (optioneel):</strong> Vul hier een eigen bericht in dat wordt getoond nadat iemand het formulier heeft ingevuld. Bijvoorbeeld: "Bedankt voor je aanmelding! We nemen contact met je op."</li>
-                    </ul>
-                </li>
+                <li>Open een hoofdcategorie.</li>
+                <li>Klik op <strong>Nieuwe subcategorie</strong>.</li>
+                <li>Vul een <strong>naam</strong> in.</li>
+                <li>Selecteer welke <strong>types</strong> meldingen mogelijk zijn (bijvoorbeeld Vraag, Incident, Storing, Wijziging, Reparatie of Aanvraag).</li>
+                <li>Selecteer de <strong>oplosgroep</strong> die meldingen in deze subcategorie ontvangt.</li>
+                <li>Voeg optioneel <strong>extra formuliervragen</strong> toe die specifiek zijn voor deze subcategorie.</li>
                 <li>Klik op <strong>Opslaan</strong>.</li>
             </ol>
-            <p>Je formulier is nu aangemaakt! De volgende stap is het toevoegen van vragen.</p>
-            <p><em>(Lees in dit artikel hoe je vragen toevoegt: Hoe beheer ik de vragen in een formulier?)</em></p>
-            <p><strong>Een bestaand formulier bewerken</strong></p>
-            <ol>
-                <li>Ga naar de groep en klik op <strong>Formulieren</strong>.</li>
-                <li>Je ziet een overzicht van alle formulieren in de groep. Klik op het <strong>wijzig-icoon</strong> (potloodje) naast het formulier dat je wilt bewerken.</li>
-                <li>Je kunt nu de titel, omschrijving en de succesmelding aanpassen.</li>
-                <li>Klik op <strong>Opslaan</strong> om de wijzigingen door te voeren.</li>
-            </ol>
-            <h4>Goed om te weten</h4>
+
+            <h3>Oplosgroepen instellen</h3>
+            <p>Een oplosgroep is een bestaande groep collega's die meldingen behandelt. Je koppelt een groep aan een subcategorie. Je kunt kiezen uit:</p>
             <ul>
-                <li>Alleen <strong>Groepsbeheerders</strong> en <strong>Sociaal Intranet Beheerders (SIB's)</strong> hebben de rechten om formulieren aan te maken en te beheren.</li>
-                <li>Een nieuw aangemaakt formulier is nog niet zichtbaar voor groepsleden. Je moet het eerst <strong>activeren</strong> en er vragen aan toevoegen.</li>
-                <li>Je kunt een formulier ook (tijdelijk) deactiveren. Leden kunnen het dan niet meer invullen, maar de resultaten blijven bewaard. <em>(Lees meer in: Hoe deactiveer of verwijder ik een formulier?)</em></li>
+                <li><strong>Systeemgroepen</strong></li>
+                <li><strong>Openbare gebruikersgroepen</strong></li>
+                <li><strong>Privé gebruikersgroepen</strong></li>
+            </ul>
+            <p>Leden van de gekoppelde groep zien automatisch alle meldingen van die subcategorie en kunnen deze behandelen.</p>
+
+            <h3>Formuliervragen per subcategorie</h3>
+            <p>Naast de vaste velden (titel, beschrijving en type) kun je per subcategorie extra formuliervragen toevoegen. Zo haal je bij het aanmaken van een melding direct de juiste informatie op. Denk aan vragen als "Welk toestel betreft het?" bij een ICT-melding of "Om welke locatie gaat het?" bij een facilitaire melding.</p>
+
+            <h3>Statussen beheren</h3>
+            <p>Elke melding heeft een status. Statussen vallen in drie categorieën:</p>
+            <ul>
+                <li><strong>Nieuw:</strong> Voor meldingen die net zijn binnengekomen (bijvoorbeeld "Nieuw", "Wacht op triage").</li>
+                <li><strong>In uitvoering:</strong> Voor meldingen waar aan wordt gewerkt (bijvoorbeeld "In behandeling", "Wacht op informatie").</li>
+                <li><strong>Afgerond:</strong> Voor afgehandelde meldingen (bijvoorbeeld "Opgelost", "Afgesloten").</li>
+            </ul>
+            <p>Eigen statussen aanmaken:</p>
+            <ol>
+                <li>Ga naar <strong>Statussen</strong> in het meldingenbeheer.</li>
+                <li>Klik op <strong>Nieuwe status</strong>.</li>
+                <li>Vul een <strong>naam</strong> in.</li>
+                <li>Kies de <strong>statuscategorie</strong> (Nieuw, In uitvoering of Afgerond).</li>
+                <li>Klik op <strong>Opslaan</strong>.</li>
+            </ol>
+
+            <h2>Goed om te weten</h2>
+            <ul>
+                <li>Een subcategorie kan alleen actief zijn als er minimaal één type en één oplosgroep is ingesteld.</li>
+                <li>De statuscategorie bepaalt het gedrag: meldingen met een status in de categorie "Afgerond" worden als afgesloten beschouwd.</li>
+                <li>Pas de workflow aan op je organisatie door eigen statussen te maken. Zo kun je bijvoorbeeld "Wacht op leverancier" of "Doorgestuurd" toevoegen.</li>
+                <li>Het meldingenoverzicht is standaard gefilterd op de statuscategorieën "Nieuw" en "In uitvoering". Afgeronde meldingen staan dus niet in de weg.</li>
+                <li>Wil je weten hoe medewerkers een melding aanmaken? Lees het kennisitem <strong>Hoe maak ik een melding aan?</strong></li>
+                <li>Wil je weten hoe de oplosgroep meldingen behandelt? Lees het kennisitem <strong>Hoe behandel ik meldingen?</strong></li>
             </ul>
         </div>
-        <div id="item-0" class="content-item" style="display: none;">
-            <h1>Productupdate: Metadata bij bestanden in Kwaliteitsroutines</h1>
-            <p>Vanaf nu is het eenvoudiger om de herkomst en relevantie van bestanden en kennisitems binnen de Kwaliteitsroutines te beoordelen. Bij elk document wordt nu belangrijke metadata getoond.</p>
-            <h2>Wat is er nieuw?</h2>
-            <p>Bij het bekijken van een document of kennisitem in een Kwaliteitsroutine, zie je nu de volgende informatie:</p>
+
+        <!-- Kennisitem 19: Hoe behandel ik meldingen? (voor oplosgroep) -->
+        <div id="item-19" class="content-item" style="display: none;">
+            <h1>Hoe behandel ik meldingen?</h1>
+            <h2>Wat is Zelfservice?</h2>
+            <p>Met de module <strong>Zelfservice</strong> in het <strong>Sociaal Intranet</strong> dienen medewerkers zelf meldingen in voor vragen, storingen en verzoeken. Als lid van een <strong>oplosgroep</strong> ontvang en behandel je deze meldingen. Je wijst meldingen toe, werkt de status bij, reageert openbaar of intern, en houdt collega's op de hoogte.</p>
+
+            <h2>Hoe werkt het?</h2>
+
+            <h3>Meldingenoverzicht bekijken</h3>
+            <ol>
+                <li>Klik in het hoofdmenu op <strong>Zelfservice</strong>.</li>
+                <li>Je ziet een overzicht met je eigen meldingen én alle meldingen van de subcategorieën waar jouw oplosgroep aan gekoppeld is.</li>
+                <li>Het overzicht toont per melding: ID, titel, laatste activiteit, melder, behandelaar en status.</li>
+                <li>Het overzicht is standaard gefilterd op meldingen met status "Nieuw" en "In uitvoering". Wil je ook afgeronde meldingen zien? Pas de filter aan.</li>
+                <li>Je kunt sorteren op elke kolom. Standaard wordt gesorteerd op laatste activiteit (nieuwste eerst).</li>
+                <li>Klik op een melding om de details te openen.</li>
+            </ol>
+
+            <h3>Behandelaar worden</h3>
+            <p>Een melding zonder behandelaar kan door elk lid van de oplosgroep worden opgepakt.</p>
+            <ol>
+                <li>Open een melding die nog geen behandelaar heeft.</li>
+                <li>Klik op <strong>Behandelaar worden</strong>.</li>
+                <li>Je kunt de melding ook toewijzen aan een andere collega uit de oplosgroep.</li>
+            </ol>
+            <p>De toewijzing wordt vastgelegd in de meldingsgeschiedenis en de melder ontvangt een notificatie.</p>
+
+            <h3>Status wijzigen</h3>
+            <p>Als behandelaar kun je de status van een melding wijzigen.</p>
+            <ol>
+                <li>Open de melding.</li>
+                <li>Klik op de huidige <strong>status</strong>.</li>
+                <li>Kies een nieuwe status uit de lijst.</li>
+            </ol>
+            <p>De statuswijziging wordt vastgelegd in de geschiedenis en de melder ontvangt een notificatie. Statussen vallen in drie categorieën:</p>
             <ul>
-                <li><strong>Publicatiedatum:</strong> De datum waarop het item oorspronkelijk is gepubliceerd.</li>
-                <li><strong>Laatst bijgewerkt:</strong> De datum waarop het item voor het laatst is gewijzigd.</li>
-                <li><strong>Eigenaar:</strong> De persoon die verantwoordelijk is voor de inhoud.</li>
+                <li><strong>Nieuw:</strong> De melding is nog niet in behandeling.</li>
+                <li><strong>In uitvoering:</strong> Er wordt aan de melding gewerkt.</li>
+                <li><strong>Afgerond:</strong> De melding is afgehandeld.</li>
             </ul>
-            <h2>Wat is de waarde?</h2>
-            <p>Deze toevoeging zorgt voor meer transparantie. Je kunt nu snel zien hoe actueel een document is en wie je kunt benaderen met vragen of opmerkingen. Dit helpt bij het borgen van de kwaliteit en actualiteit van alle informatie.</p>
+
+            <h3>Reageren op een melding</h3>
+            <p>Je kunt op twee manieren reageren:</p>
+            <ul>
+                <li><strong>Openbaar reageren:</strong> Je reactie is zichtbaar voor de melder, volgers en alle leden van de oplosgroep. Gebruik dit om de melder te informeren over de voortgang, extra informatie te vragen of de oplossing te communiceren.</li>
+                <li><strong>Intern reageren:</strong> Je reactie is <em>alleen</em> zichtbaar voor leden van de oplosgroep. Gebruik dit voor interne afstemming, notities of technische details die niet relevant zijn voor de melder.</li>
+            </ul>
+            <p>Je kunt bestanden toevoegen aan je reactie via drag-and-drop.</p>
+
+            <h3>Melding volgen</h3>
+            <p>Als lid van de oplosgroep kun je collega's toevoegen als volger van een melding, of ze verwijderen. Volgers ontvangen notificaties bij nieuwe reacties, statuswijzigingen en toewijzingen.</p>
+
+            <h2>Goed om te weten</h2>
+            <ul>
+                <li>Je ontvangt notificaties wanneer er nieuwe meldingen binnenkomen in jouw oplosgroep.</li>
+                <li>Interne reacties zijn <strong>nooit</strong> zichtbaar voor de melder of volgers buiten de oplosgroep.</li>
+                <li>Door snel behandelaar te worden voorkom je dat meerdere collega's aan dezelfde melding werken.</li>
+                <li>Statuswijzigingen en toewijzingen worden automatisch vastgelegd in de meldingsgeschiedenis.</li>
+                <li>Wil je weten hoe medewerkers een melding aanmaken? Lees het kennisitem <strong>Hoe maak ik een melding aan?</strong></li>
+                <li>Wil je weten hoe de module wordt ingericht? Lees het kennisitem <strong>Hoe configureer ik Zelfservice?</strong></li>
+            </ul>
+        </div>
+
+        <!-- Kennisitem 18: Hoe maak ik een melding aan? -->
+        <div id="item-18" class="content-item" style="display: none;">
+            <h1>Hoe maak ik een melding aan?</h1>
+            <h2>Wat is Zelfservice?</h2>
+            <p>Met <strong>Zelfservice</strong> in het <strong>Sociaal Intranet</strong> dien je zelf eenvoudig meldingen in voor vragen, storingen of verzoeken. Je melding komt automatisch bij de juiste collega's terecht en je volgt de voortgang in je persoonlijke overzicht.</p>
+            <p>Denk aan situaties zoals:</p>
+            <ul>
+                <li>Een ICT-storing melden</li>
+                <li>Een vraag stellen aan HR</li>
+                <li>Een reparatieverzoek indienen bij Facilitair</li>
+                <li>Een wijziging aanvragen bij de administratie</li>
+            </ul>
+
+            <h2>Hoe werkt het?</h2>
+
+            <h3>Een melding aanmaken</h3>
+            <ol>
+                <li>Klik in het hoofdmenu op <strong>Zelfservice</strong> (de naam kan per organisatie afwijken).</li>
+                <li>Klik op <strong>Nieuwe melding</strong>.</li>
+                <li>Kies een <strong>hoofdcategorie</strong> (bijvoorbeeld ICT, HR, Facilitair).</li>
+                <li>Kies een <strong>subcategorie</strong> die past bij je vraag of probleem.</li>
+                <li>Vul het formulier in:
+                    <ul>
+                        <li><strong>Titel:</strong> Een korte omschrijving van je melding.</li>
+                        <li><strong>Beschrijving:</strong> Leg uit wat er aan de hand is.</li>
+                        <li><strong>Type:</strong> Kies het type melding (bijvoorbeeld Vraag, Incident of Storing).</li>
+                        <li>Eventuele extra vragen die specifiek zijn voor deze categorie.</li>
+                    </ul>
+                </li>
+                <li>Klik op <strong>Versturen</strong>.</li>
+            </ol>
+            <p>Je melding krijgt automatisch een uniek nummer en wordt toegewezen aan de juiste oplosgroep.</p>
+
+            <h3>Je meldingen bekijken</h3>
+            <ol>
+                <li>Ga naar <strong>Zelfservice</strong> in het hoofdmenu.</li>
+                <li>Je ziet een overzicht van al je ingediende meldingen met de kolommen: ID, titel, laatste activiteit, behandelaar en status.</li>
+                <li>Standaard zie je alleen meldingen die nog open staan (status "Nieuw" of "In uitvoering"). Wil je ook afgeronde meldingen zien? Pas de filter aan.</li>
+                <li>Klik op een melding om de details te bekijken.</li>
+            </ol>
+
+            <h3>Reageren op je melding</h3>
+            <p>Op de detailpagina kun je:</p>
+            <ul>
+                <li>De volledige inhoud en geschiedenis van je melding bekijken.</li>
+                <li>Een reactie plaatsen om extra informatie te geven of een vraag te beantwoorden.</li>
+                <li>Bestanden toevoegen aan je reactie via drag-and-drop.</li>
+                <li>Reacties van de behandelaar lezen.</li>
+            </ul>
+
+            <h3>Melding volgen</h3>
+            <p>Je kunt een melding <strong>volgen</strong> om notificaties te ontvangen over nieuwe reacties, statuswijzigingen en toewijzingen. Je ontvangt notificaties in het <strong>Sociaal Intranet</strong> en per e-mail. Volgen en ontvolgen kan op elk moment.</p>
+
+            <h2>Goed om te weten</h2>
+            <ul>
+                <li>Je ontvangt automatisch notificaties wanneer er een behandelaar is toegewezen, bij nieuwe reacties en bij statuswijzigingen.</li>
+                <li>Geef een duidelijke titel en beschrijving, zodat de behandelaar je melding snel kan oppakken.</li>
+                <li>Je ziet op de melding wie deze volgt.</li>
+                <li>Heb je een dringende storing? Neem dan ook telefonisch contact op met de betreffende afdeling.</li>
+                <li>Wil je weten hoe de oplosgroep meldingen behandelt? Lees het kennisitem <strong>Hoe behandel ik meldingen?</strong></li>
+            </ul>
         </div>
     </div>
 
