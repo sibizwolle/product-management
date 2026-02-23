@@ -131,10 +131,6 @@ Alleen tickets met user-facing functionaliteit staan hier; puur technische bugfi
   - Soort: Kennisitem update (kenniseditor / bijdragen)
   - Toelichting: Nieuwe opmaakoptie in de editor: afbeeldingen links of rechts uitlijnen met tekst ernaast. Verdient een update van het kennisitem over de editor of kennisaanmaken.
 
-- [ ] **SIA-1805** – Team van medewerker tonen op medewerkerpaneel
-  - Status: Review
-  - Soort: Kennisitem update (collega-overzicht / medewerkerpaneel)
-  - Toelichting: Als het systeemgroepstype Team niet actief is, wordt het team van de medewerker getoond op het medewerkerpaneel. Verdient een update van het kennisitem over het collega-overzicht of medewerkerpaneel.
 
 - [ ] **SIA-1928** – Menu-item "Meldingen" verplaatst naar onder Organisatie
   - Status: Review
@@ -156,3 +152,7 @@ Alleen tickets met user-facing functionaliteit staan hier; puur technische bugfi
 - [x] **SIA-1910** – Direct naar-tegels zonder witruimte (nieuwe instelling)
   - Afgerond: 2026-02-23
   - Productupdate geschreven en toegevoegd aan index.html (item-31)
+
+- [x] **SIA-1805** – Team van medewerker tonen op medewerkerpaneel
+  - Afgerond: 2026-02-23
+  - Productupdate geschreven en toegevoegd aan index.html (item-32)
