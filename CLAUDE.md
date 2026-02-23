@@ -20,3 +20,14 @@ Elke taak heeft een eigen map met:
 2. Voeg een `README.md` en `CLAUDE.md` toe
 3. Maak eventuele skills in `.claude/skills/`
 4. Update de tabel in de root `README.md`
+
+## Werkwijze TODO-lijst
+
+Elk onderdeel heeft een `TODO.md` in de bijbehorende map. Regels:
+
+- Als er tickets zijn die nog community content nodig hebben, leg dat vast in de `TODO.md`.
+- Als de todo-lijst wijzigt, commit dat direct naar GitHub:
+  - Elke wijziging is een **losse commit** met daarin **tenminste het ticketnummer** dat de wijziging veroorzaakt, plus een duidelijke beschrijving.
+  - Voorbeeld commit message: `feat(todo): voeg SIA-1899 toe aan TODO (productupdate nieuwsbijdragen)`
+- Als een item van de todolijst is afgevinkt, verdwijnt het uit de open lijst en wordt het naar het "Afgevinkt" blok verplaatst — ook dit met een duidelijk commit message.
+- Controleer bij elke aanpassing altijd de datum bovenaan het bestand opnieuw.
