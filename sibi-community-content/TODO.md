@@ -1,6 +1,6 @@
 # Community Content TODO
 
-Gegenereerd op: 2026-02-23
+Bijgewerkt op: 2026-02-23
 
 Tickets die nog community content nodig hebben (kennisitem of productupdate).
 Alleen tickets met user-facing functionaliteit staan hier; puur technische bugfixes en interne taken zijn weggelaten.
@@ -115,6 +115,46 @@ Alleen tickets met user-facing functionaliteit staan hier; puur technische bugfi
   - Status: Done
   - Soort: Kennisitem / productupdate (Sibi Hub Analyse)
   - Toelichting: Nieuwe functionaliteit in de Analyse-module: doorlopende onderzoeken. Verdient een kennisitem voor de Sibi Hub Beheerder.
+
+- [ ] **SIA-1862** – Widgetbeheer toegankelijk voor Sociaal Intranet Beheerder
+  - Status: Review
+  - Soort: Kennisitem update (rollen & rechten / widgetbeheer)
+  - Toelichting: Sociaal Intranet Beheerder kan nu ook widgets beheren, voorheen alleen de Beheerder. Verdient een update van het kennisitem over widgetbeheer of rollen.
+
+- [ ] **SIA-1868** – Afhankelijkheden in formuliervragen
+  - Status: In progress
+  - Soort: Kennisitem (Zelfservice / formulieren)
+  - Toelichting: Grote nieuwe feature: formuliervragen kunnen afhankelijk gemaakt worden van het antwoord op een andere vraag. Na afronding een kennisitem voor beheerders en evt. productupdate.
+
+- [ ] **SIA-1803** – Afbeeldingen links/rechts uitlijnen in TipTap
+  - Status: In progress
+  - Soort: Kennisitem update (kenniseditor / bijdragen)
+  - Toelichting: Nieuwe opmaakoptie in de editor: afbeeldingen links of rechts uitlijnen met tekst ernaast. Verdient een update van het kennisitem over de editor of kennisaanmaken.
+
+- [ ] **SIA-1805** – Team van medewerker tonen op medewerkerpaneel
+  - Status: Review
+  - Soort: Kennisitem update (collega-overzicht / medewerkerpaneel)
+  - Toelichting: Als het systeemgroepstype Team niet actief is, wordt het team van de medewerker getoond op het medewerkerpaneel. Verdient een update van het kennisitem over het collega-overzicht of medewerkerpaneel.
+
+- [ ] **SIA-1910** – Direct naar-tegels zonder witruimte (nieuwe instelling)
+  - Status: Done
+  - Soort: Kennisitem update (Direct naar-widget / beheer)
+  - Toelichting: Nieuwe beheerinstelling op het Direct naar-widget: 'Geen witruimte om de tegel'. Verdient een update van het kennisitem over het Direct naar-widget voor beheerders.
+
+- [ ] **SIA-1928** – Menu-item "Meldingen" verplaatst naar onder Organisatie
+  - Status: Review
+  - Soort: Kennisitem update (navigatie / Zelfservice)
+  - Toelichting: Het menu-item Meldingen krijgt een andere plek in de navigatie (onder Organisatie). Bestaande kennisitems over Zelfservice die navigatiestappen beschrijven bijwerken.
+
+- [ ] **BEO-1351** – Contactpaneel teamleider op Offboarding
+  - Status: In progress
+  - Soort: Kennisitem (Offboarding)
+  - Toelichting: Nieuwe functie op de offboardingpagina: een contactpaneel waarmee de medewerker contact kan opnemen met de teamleider, vergelijkbaar met onboarding. Verdient een kennisitem voor de offboarding-module.
+
+- [ ] **SIA-1083** – Widgetbeheer ook mogelijk op de Vinden-pagina
+  - Status: Done
+  - Soort: Kennisitem update (widgetbeheer / Vinden-pagina)
+  - Toelichting: Widgets kunnen nu ook beheerd worden op de /vinden-pagina. Verdient een update van het kennisitem over widgetbeheer voor beheerders.
 
 ## Afgevinkt (gedaan)
 
