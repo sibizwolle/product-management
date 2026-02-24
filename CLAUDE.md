@@ -7,6 +7,9 @@ Dit is een verzameling van product management taken en skills.
 ### 1. Community Content (`sibi-community-content/`)
 Schrijven van kennisitems en productupdates voor de Sibi Community. Bevat een skill met schrijfrichtlijnen, voorbeelden en terminologie.
 
+### 2. Monitoring & Logging (`monitoring-logging/`)
+Sentry-errors triëren en omzetten naar bruikbare Jira-tickets. Bevat een skill voor het verwerken van Sentry-issues naar gestructureerde bug-tickets.
+
 ## Structuur
 
 Elke taak heeft een eigen map met:
