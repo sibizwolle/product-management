@@ -24,6 +24,6 @@ De gebruiker geeft op:
 
 ## Opmaakregels voor Jira
 
-- Gebruik plain Markdown voor zowel `description` als reacties — geen ADF-objecten.
+- Gebruik altijd **plain Markdown strings** — geen ADF-objecten. Dit geldt voor zowel `description` (via `editJiraIssue`) als reacties (via `addCommentToJiraIssue`).
 - Geen Markdown-koppen (# / ## / ###). Gebruik **vetgedrukte tekst** als kopje, dan een witregel, dan de inhoud als nieuwe paragraaf.
 - Houd de toon zakelijk en bondig.
