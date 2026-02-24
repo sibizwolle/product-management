@@ -15,7 +15,7 @@ De gebruiker geeft op:
 3. Analyseer de Sentry-data: wat is de fout, waar treedt hij op, hoe vaak, hoeveel gebruikers, welke tenant(s)?
 4. Pas het Jira ticket aan:
    - **Titel (`summary`)**: begin altijd met `[500]`, gevolgd door een functionele foutmelding in begrijpelijk Nederlands — geen technische exception-tekst, maar wat de gebruiker ervaart of wat er functioneel misgaat. Voorbeeld: `[500] Bijdrage niet gevonden bij hoveren in de tijdlijn`.
-   - **Beschrijving**: de `description` kan niet betrouwbaar worden bijgewerkt via `editJiraIssue` (tool-beperking). Voeg de inhoud toe als reactie via `addCommentToJiraIssue`. Schrijf in plain Markdown, geen Markdown-koppen. Gebruik vetgedrukte tekst als kopje gevolgd door een nieuwe paragraaf. Dek in ieder geval af:
+   - **Beschrijving (`description`)**: lees eerst de bestaande beschrijving en vul die aan — verwijder nooit bestaande inhoud, tenzij de gebruiker daar expliciet toestemming voor geeft. Stuur de volledige nieuwe tekst (bestaand + aanvulling) via `editJiraIssue` als plain Markdown string. Geen Markdown-koppen. Gebruik vetgedrukte tekst als kopje gevolgd door een nieuwe paragraaf. Dek in ieder geval af:
      - Wat gaat er mis (functioneel én technisch)?
      - Waar in de code treedt het op?
      - Hoe vaak en hoeveel gebruikers zijn geraakt?
