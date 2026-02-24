@@ -6,8 +6,8 @@ Verzameling van taken, skills en tools voor product management.
 
 | Taak | Beschrijving | Map |
 |------|--------------|-----|
-| Community Content | Kennisitems en productupdates schrijven voor Sibi Community | [sibi-community-content](./sibi-community-content/) |
-| Monitoring & Logging | Sentry-errors triëren en omzetten naar bruikbare Jira-tickets | [monitoring-logging](./monitoring-logging/) |
+| Community Content | Kennisitems en productupdates schrijven voor Sibi Community | [taak-writing-community-content](./taak-writing-community-content/) |
+| Monitoring & Logging | Sentry-errors triëren en omzetten naar bruikbare Jira-tickets | [taak-monitoring-logging](./taak-monitoring-logging/) |
 
 ## Structuur
 
@@ -15,11 +15,11 @@ Verzameling van taken, skills en tools voor product management.
 product-management/
 ├── README.md              # Dit bestand
 ├── CLAUDE.md              # Algemene instructies voor Claude
-├── sibi-community-content/    # Taak: Community content schrijven
+├── taak-writing-community-content/    # Taak: Community content schrijven
 │   ├── README.md
 │   ├── CLAUDE.md
 │   └── .claude/skills/    # Skills voor deze taak
-├── monitoring-logging/        # Taak: Sentry-errors triëren
+├── taak-monitoring-logging/           # Taak: Sentry-errors triëren
 │   ├── README.md
 │   ├── CLAUDE.md
 │   └── .claude/skills/    # Skills voor deze taak
