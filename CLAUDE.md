@@ -27,7 +27,7 @@ Bij het aanpassen van Jira-tickets via de MCP-tool:
 
 - Gebruik **geen ADF-formaat** voor het `description`-veld of reacties — dat geeft vaak fouten.
 - Geef reacties altijd mee als **plain Markdown string** via `addCommentToJiraIssue`.
-- De titel (`summary`) kan gewoon als string worden meegegeven via `editJiraIssue`.
+- De titel (`summary`) kan gewoon als string worden meegegeven via `editJiraIssue`. Bij Sentry-errors begint de titel altijd met `[500]`, gevolgd door een functionele omschrijving in begrijpelijk Nederlands.
 - Het `description`-veld kan **niet betrouwbaar** worden bijgewerkt via `editJiraIssue` (tool-beperking). Gebruik in plaats daarvan een reactie voor uitgebreide beschrijvingen.
 - Gebruik **geen Markdown-koppen** (# / ## / ###). Gebruik in plaats daarvan een **vetgedrukte zin** als kopje, gevolgd door een nieuwe paragraaf met de inhoud.
 
