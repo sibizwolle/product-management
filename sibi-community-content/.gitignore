@@ -4,6 +4,9 @@ community-data/
 # Gemini configuratie
 .gemini/
 
+# Claude lokale instellingen
+.claude/settings.local.json
+
 # IDE/editor
 *.sublime-*
 .vscode/
