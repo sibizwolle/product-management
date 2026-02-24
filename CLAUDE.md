@@ -21,6 +21,19 @@ Elke taak heeft een eigen map met:
 3. Maak eventuele skills in `.claude/skills/`
 4. Update de tabel in de root `README.md`
 
+## Jira-integratie
+
+Bij het aanpassen van Jira-tickets via de MCP-tool:
+
+- Gebruik **geen ADF-formaat** voor het `description`-veld of reacties — dat geeft vaak fouten.
+- Geef beschrijvingen en reacties altijd mee als **plain Markdown string**.
+- De titel (`summary`) kan gewoon als string worden meegegeven.
+- Gebruik **geen Markdown-koppen** (# / ## / ###). Gebruik in plaats daarvan een **vetgedrukte zin** als kopje, gevolgd door een nieuwe paragraaf met de inhoud.
+
+## Werkwijze commits
+
+We werken trunk-based: elke wijziging die upstream moet gaat als een kleine, zelfstandige (atomic) commit direct op `main`. Geen feature branches, geen PRs.
+
 ## Werkwijze TODO-lijst
 
 Elk onderdeel heeft een `TODO.md` in de bijbehorende map. Regels:
