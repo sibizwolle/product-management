@@ -15,7 +15,7 @@ De gebruiker geeft op:
 3. Analyseer de Sentry-data: wat is de fout, waar treedt hij op, hoe vaak, hoeveel gebruikers, welke tenant(s)?
 4. Pas het Jira ticket aan:
    - **Titel (`summary`)**: schrijf een functionele foutmelding in begrijpelijk Nederlands — geen technische exception-tekst, maar wat de gebruiker ervaart of wat er functioneel misgaat.
-   - **Beschrijving (`description`)**: schrijf in plain Markdown (geen ADF, geen Markdown-koppen). Gebruik vetgedrukte tekst als kopje gevolgd door een nieuwe paragraaf. Dek in ieder geval af:
+   - **Beschrijving**: de `description` kan niet betrouwbaar worden bijgewerkt via `editJiraIssue` (tool-beperking). Voeg de inhoud toe als reactie via `addCommentToJiraIssue`. Schrijf in plain Markdown, geen Markdown-koppen. Gebruik vetgedrukte tekst als kopje gevolgd door een nieuwe paragraaf. Dek in ieder geval af:
      - Wat gaat er mis (functioneel én technisch)?
      - Waar in de code treedt het op?
      - Hoe vaak en hoeveel gebruikers zijn geraakt?

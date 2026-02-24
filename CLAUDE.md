@@ -26,8 +26,9 @@ Elke taak heeft een eigen map met:
 Bij het aanpassen van Jira-tickets via de MCP-tool:
 
 - Gebruik **geen ADF-formaat** voor het `description`-veld of reacties — dat geeft vaak fouten.
-- Geef beschrijvingen en reacties altijd mee als **plain Markdown string**.
-- De titel (`summary`) kan gewoon als string worden meegegeven.
+- Geef reacties altijd mee als **plain Markdown string** via `addCommentToJiraIssue`.
+- De titel (`summary`) kan gewoon als string worden meegegeven via `editJiraIssue`.
+- Het `description`-veld kan **niet betrouwbaar** worden bijgewerkt via `editJiraIssue` (tool-beperking). Gebruik in plaats daarvan een reactie voor uitgebreide beschrijvingen.
 - Gebruik **geen Markdown-koppen** (# / ## / ###). Gebruik in plaats daarvan een **vetgedrukte zin** als kopje, gevolgd door een nieuwe paragraaf met de inhoud.
 
 ## Werkwijze commits
