@@ -1,6 +1,6 @@
 # Community Content TODO
 
-Bijgewerkt op: 2026-02-23
+Bijgewerkt op: 2026-02-24
 
 Tickets die nog community content nodig hebben (kennisitem of productupdate).
 Alleen tickets met user-facing functionaliteit staan hier; puur technische bugfixes en interne taken zijn weggelaten.
@@ -101,11 +101,6 @@ Alleen tickets met user-facing functionaliteit staan hier; puur technische bugfi
   - Soort: Kennisitem / productupdate (zoekfunctie)
   - Toelichting: Verbeterde zoekfunctionaliteit. Verdient een kennisitem of productupdate over zoeken in het Sociaal Intranet.
 
-- [ ] **SIA-1586** – Controleurs kunnen kwaliteitsroutine uitvoeren van kennis & bestanden
-  - Status: Done
-  - Soort: Kennisitem update (Kwaliteitsroutine)
-  - Toelichting: Nieuwe rol in de kwaliteitsroutine: controleurs. Verdient een update van het kennisitem over de Kwaliteitsroutine.
-
 - [ ] **SIA-1476** – .docx importeren: Ondersteuning voor tabellen
   - Status: Done
   - Soort: Kennisitem update / productupdate
@@ -152,6 +147,10 @@ Alleen tickets met user-facing functionaliteit staan hier; puur technische bugfi
 - [x] **SIA-1910** – Direct naar-tegels zonder witruimte (nieuwe instelling)
   - Afgerond: 2026-02-23
   - Productupdate geschreven en toegevoegd aan index.html (item-31)
+
+- [x] **SIA-1586** – Controleurs kunnen kwaliteitsroutine uitvoeren van kennis & bestanden
+  - Afgerond: 2026-02-24
+  - Productupdate geschreven en toegevoegd aan index.html (item-33)
 
 - [x] **SIA-1805** – Team van medewerker tonen op medewerkerpaneel
   - Afgerond: 2026-02-23
