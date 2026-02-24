@@ -17,11 +17,11 @@ De gebruiker geeft op:
 3. Pas het Jira ticket aan:
    - **Titel (`summary`)**: begin altijd met `[500]`, gevolgd door een functionele foutmelding in begrijpelijk Nederlands — geen technische exception-tekst, maar wat de gebruiker ervaart of wat er functioneel misgaat. Voorbeeld: `[500] Bijdrage niet gevonden bij hoveren in de tijdlijn`.
    - **Beschrijving (`description`)**: vul de bestaande beschrijving aan — verwijder nooit bestaande inhoud, tenzij de gebruiker daar expliciet toestemming voor geeft. Plaats de aanvulling **bóven** de bestaande Sentry-melding. Stuur de volledige nieuwe tekst (aanvulling + bestaande inhoud) via `editJiraIssue` als plain Markdown string, met `description` als sleutel in het `fields`-object. Dek in de aanvulling in ieder geval af:
-     - Wat gaat er mis (functioneel én technisch)?
-     - Waar in de code treedt het op?
-     - Hoe vaak en hoeveel gebruikers zijn geraakt?
-     - Wat moet er gebeuren om het op te lossen?
-     - Vermelding van het Sentry issue ID met link.
+     - **Situatie**: wat is de context, hoe vaak is het opgetreden, hoeveel gebruikers geraakt, welke tenant(s)?
+     - **Wat gaat er mis?**: functionele én technische omschrijving, inclusief bestandslocatie en regelnummer.
+     - **Reproductie**: stappen om de fout te reproduceren.
+     - **Gewenst gedrag**: wat moet er gebeuren om het op te lossen?
+     - Sluit af met een horizontale lijn (`---`) gevolgd door de originele Sentry-melding.
 
 ## Opmaakregels voor Jira
 
