@@ -6,6 +6,9 @@
 logs/
 *.log
 
+# Claude lokale instellingen
+.claude/settings.local.json
+
 # IDE/editor
 *.sublime-*
 *.sublime-project
