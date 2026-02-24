@@ -23,6 +23,16 @@ De gebruiker geeft op:
      - **Gewenst gedrag**: wat moet er gebeuren om het op te lossen?
      - Sluit af met een horizontale lijn (`---`) gevolgd door de originele Sentry-melding.
 
+4. Zoek naar de best passende parent voor het ticket:
+   - Gebruik `searchJiraIssuesUsingJql` om epics of stories te vinden die inhoudelijk aansluiten bij het component of de feature waar de bug in zit (bijv. op basis van trefwoorden uit de fout of het bestandspad).
+   - Stel maximaal 3 kandidaten voor aan de gebruiker met een korte toelichting waarom ze passen.
+   - Laat de gebruiker kiezen welke parent het wordt, of dat er geen parent gekoppeld wordt.
+   - Koppel de gekozen parent via `editJiraIssue` met het veld `parent: { key: "SIA-XXXX" }`.
+
+5. Vraag de gebruiker of de status van het ticket gewijzigd mag worden naar **Sprintready**:
+   - Zo ja: haal de beschikbare transities op via `getTransitionsForJiraIssue` en voer de juiste transitie uit via `transitionJiraIssue`.
+   - Zo nee: laat de status ongewijzigd.
+
 ## Opmaakregels voor Jira
 
 - Gebruik altijd **plain Markdown strings** — geen ADF-objecten. Dit geldt voor zowel `description` (via `editJiraIssue`) als reacties (via `addCommentToJiraIssue`).
