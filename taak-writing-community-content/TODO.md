@@ -108,8 +108,8 @@ Alleen tickets met user-facing functionaliteit staan hier; puur technische bugfi
 
 - [ ] **BEO-1101** – Sibi Hub Beheerder kan analyse bekijken van doorlopend onderzoek
   - Status: Done
-  - Soort: Kennisitem / productupdate (Sibi Hub Analyse)
-  - Toelichting: Nieuwe functionaliteit in de Analyse-module: doorlopende onderzoeken. Verdient een kennisitem voor de Sibi Hub Beheerder.
+  - Soort: Productupdate — **al geschreven als item-37** (samen met BEO-1098 epic)
+  - Toelichting: Onderdeel van de productupdate over doorlopende onderzoeken.
 
 - [ ] **SIA-1862** – Widgetbeheer toegankelijk voor Sociaal Intranet Beheerder
   - Status: Review
@@ -143,6 +143,10 @@ Alleen tickets met user-facing functionaliteit staan hier; puur technische bugfi
   - Toelichting: Widgets kunnen nu ook beheerd worden op de /vinden-pagina. Verdient een update van het kennisitem over widgetbeheer voor beheerders.
 
 ## Afgevinkt (gedaan)
+
+- [x] **BEO-1098** – Doorlopende in- en uitstroomonderzoeken (epic)
+  - Afgerond: 2026-03-05
+  - Productupdate geschreven en toegevoegd aan index.html (item-37, dekt BEO-1100, 1101, 1102, 1134, 1362)
 
 - [x] **SIA-1803** – Afbeeldingen links/rechts uitlijnen in TipTap
   - Afgerond: 2026-03-05
