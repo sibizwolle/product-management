@@ -144,6 +144,10 @@ Alleen tickets met user-facing functionaliteit staan hier; puur technische bugfi
 
 ## Afgevinkt (gedaan)
 
+- [x] **SIA-1956** – Tegels zonder witruimte lelijk met border
+  - Afgerond: 2026-03-05
+  - Update-notitie toegevoegd aan item-31 in index.html (bugfix op SIA-1910)
+
 - [x] **SIA-1923** – Filters blijven onthouden gedurende de sessie
   - Afgerond: 2026-03-05
   - Productupdate geschreven en toegevoegd aan index.html (item-34, gecombineerd met SIA-1939)
