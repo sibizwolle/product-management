@@ -103,8 +103,8 @@ Alleen tickets met user-facing functionaliteit staan hier; puur technische bugfi
 
 - [ ] **SIA-1476** – .docx importeren: Ondersteuning voor tabellen
   - Status: Done
-  - Soort: Kennisitem update / productupdate
-  - Toelichting: Uitbreiding van de .docx import: tabellen worden nu ondersteund. Verdient een kennisitem of productupdate over de documentimport.
+  - Soort: Productupdate — **al geschreven als item-36**
+  - Toelichting: Productupdate geschreven.
 
 - [ ] **BEO-1101** – Sibi Hub Beheerder kan analyse bekijken van doorlopend onderzoek
   - Status: Done
@@ -122,9 +122,9 @@ Alleen tickets met user-facing functionaliteit staan hier; puur technische bugfi
   - Toelichting: Grote nieuwe feature: formuliervragen kunnen afhankelijk gemaakt worden van het antwoord op een andere vraag. Na afronding een kennisitem voor beheerders en evt. productupdate.
 
 - [ ] **SIA-1803** – Afbeeldingen links/rechts uitlijnen in TipTap
-  - Status: In progress
-  - Soort: Kennisitem update (kenniseditor / bijdragen)
-  - Toelichting: Nieuwe opmaakoptie in de editor: afbeeldingen links of rechts uitlijnen met tekst ernaast. Verdient een update van het kennisitem over de editor of kennisaanmaken.
+  - Status: Done
+  - Soort: Productupdate — **al geschreven als item-35**
+  - Toelichting: Productupdate geschreven. Kennisitem over de editor nog niet bijgewerkt.
 
 
 - [ ] **SIA-1928** – Menu-item "Meldingen" verplaatst naar onder Organisatie
@@ -143,6 +143,14 @@ Alleen tickets met user-facing functionaliteit staan hier; puur technische bugfi
   - Toelichting: Widgets kunnen nu ook beheerd worden op de /vinden-pagina. Verdient een update van het kennisitem over widgetbeheer voor beheerders.
 
 ## Afgevinkt (gedaan)
+
+- [x] **SIA-1803** – Afbeeldingen links/rechts uitlijnen in TipTap
+  - Afgerond: 2026-03-05
+  - Productupdate geschreven en toegevoegd aan index.html (item-35)
+
+- [x] **SIA-1476** – .docx importeren: Ondersteuning voor tabellen
+  - Afgerond: 2026-03-05
+  - Productupdate geschreven en toegevoegd aan index.html (item-36)
 
 - [x] **SIA-1956** – Tegels zonder witruimte lelijk met border
   - Afgerond: 2026-03-05
