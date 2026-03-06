@@ -144,6 +144,10 @@ Alleen tickets met user-facing functionaliteit staan hier; puur technische bugfi
 
 ## Afgevinkt (gedaan)
 
+- [x] **SIA-1757** – Behandelaar kan categorie van melding wijzigen
+  - Afgerond: 2026-03-06
+  - Productupdate geschreven en toegevoegd aan index.html (item-41, concept — ticket nog In progress)
+
 - [x] **SIA-515** – Zoeken door reacties onder bijdragen
   - Afgerond: 2026-03-06
   - Productupdate geschreven en toegevoegd aan index.html (item-40)
