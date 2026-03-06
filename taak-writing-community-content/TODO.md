@@ -144,6 +144,10 @@ Alleen tickets met user-facing functionaliteit staan hier; puur technische bugfi
 
 ## Afgevinkt (gedaan)
 
+- [x] **SIA-515** – Zoeken door reacties onder bijdragen
+  - Afgerond: 2026-03-06
+  - Productupdate geschreven en toegevoegd aan index.html (item-40)
+
 - [x] **SIA-1901** – Widget 'Systeemgroepen volgen'
   - Afgerond: 2026-03-06
   - Productupdate geschreven en toegevoegd aan index.html (item-39)
