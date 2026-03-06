@@ -1,6 +1,6 @@
 # Community Content TODO
 
-Bijgewerkt op: 2026-03-05
+Bijgewerkt op: 2026-03-06
 
 Tickets die nog community content nodig hebben (kennisitem of productupdate).
 Alleen tickets met user-facing functionaliteit staan hier; puur technische bugfixes en interne taken zijn weggelaten.
@@ -143,6 +143,10 @@ Alleen tickets met user-facing functionaliteit staan hier; puur technische bugfi
   - Toelichting: Widgets kunnen nu ook beheerd worden op de /vinden-pagina. Verdient een update van het kennisitem over widgetbeheer voor beheerders.
 
 ## Afgevinkt (gedaan)
+
+- [x] **SIA-1807** – Melding starren (Favoriet maken)
+  - Afgerond: 2026-03-06
+  - Productupdate geschreven en toegevoegd aan index.html (item-38)
 
 - [x] **BEO-1098** – Doorlopende in- en uitstroomonderzoeken (epic)
   - Afgerond: 2026-03-05
