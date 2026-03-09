@@ -1,6 +1,6 @@
 # Community Content TODO
 
-Bijgewerkt op: 2026-03-06
+Bijgewerkt op: 2026-03-09
 
 Tickets die nog community content nodig hebben (kennisitem of productupdate).
 Alleen tickets met user-facing functionaliteit staan hier; puur technische bugfixes en interne taken zijn weggelaten.
@@ -143,6 +143,10 @@ Alleen tickets met user-facing functionaliteit staan hier; puur technische bugfi
   - Toelichting: Widgets kunnen nu ook beheerd worden op de /vinden-pagina. Verdient een update van het kennisitem over widgetbeheer voor beheerders.
 
 ## Afgevinkt (gedaan)
+
+- [x] **SIA-1931** – In gesprek met de Teamleider (epic: gespreksverslagen in Teamzicht)
+  - Afgerond: 2026-03-09
+  - Productupdate geschreven en gepubliceerd in Sociaal Intranet (item-42, dekt SIA-1932, 1933, 1934, 1935)
 
 - [x] **SIA-1757** – Behandelaar kan categorie van melding wijzigen
   - Afgerond: 2026-03-06
