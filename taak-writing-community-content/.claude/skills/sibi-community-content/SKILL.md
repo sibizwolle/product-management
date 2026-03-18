@@ -12,11 +12,12 @@ Deze skill helpt bij het schrijven van kennisitems en productupdates voor de Sib
 Bij elke nieuwe schrijfopdracht:
 
 1. **Bepaal het type content**: Kennisitem of productupdate?
-2. **Verzamel relevante data**: Haal bestaande community data op indien nodig
-3. **Kies de juiste structuur**: Volg de templates voor kennisitems of productupdates
-4. **Schrijf met de juiste stijl**: Informeel, toegankelijk, gebruikersgericht
-5. **Voeg cross-links toe**: Verwijs naar gerelateerde kennisitems
-6. **Suggereer groep en categorie**: Bepaal waar de content thuishoort
+2. **Controleer op ideeënbord-koppeling**: Is er een SIO-ticket of link naar het ideeënbord meegegeven, of is er via Jira een gekoppeld idee? Zo ja: noteer de titel en beschrijving van dat idee — die worden verwerkt in de productupdate (zie "Ideeënbord-koppeling" hieronder).
+3. **Verzamel relevante data**: Haal bestaande community data op indien nodig
+4. **Kies de juiste structuur**: Volg de templates voor kennisitems of productupdates
+5. **Schrijf met de juiste stijl**: Informeel, toegankelijk, gebruikersgericht
+6. **Voeg cross-links toe**: Verwijs naar gerelateerde kennisitems
+7. **Suggereer groep en categorie**: Bepaal waar de content thuishoort
 
 ## Kennisitems Schrijven
 
@@ -66,9 +67,12 @@ Productupdates zijn release notes die nieuwe features en verbeteringen aankondig
 
 Gebruik deze vaste opbouw:
 
-1. **Openingszin**
-   - Korte, pakkende introductie (1-2 zinnen)
-   - Vertel direct wat er nieuw is
+1. **Openingszin / Ideeënbord-koppeling**
+   - Is er een gekoppeld ideeënbord-ticket (SIO-xxx) of werd er een link naar het ideeënbord meegegeven? Begin de productupdate dan met een zin die dit expliciet benoemt, zoals:
+     > *"Op basis van jullie idee op het ideeënbord hebben we [functionaliteit] ontwikkeld."*
+     of
+     > *"Dit idee stond op het ideeënbord en is nu werkelijkheid: [functionaliteit]."*
+   - Geen ideeënbord-koppeling? Begin met een korte, pakkende openingszin (1-2 zinnen) die direct vertelt wat er nieuw is.
 
 2. **Wat is er nieuw?**
    - Beschrijf de nieuwe functionaliteit of verbetering
@@ -83,11 +87,20 @@ Gebruik deze vaste opbouw:
 4. **Goed om te weten**
    - Belangrijke details, tips of beperkingen
    - Link naar relevante kennisitems indien beschikbaar
-   - Vermeld gerelateerde ideeën van het ideeënbord (met links)
+
+### Ideeënbord-koppeling
+
+Als een Jira-ticket (SIA-xxx) een gekoppeld ideeënbord-ticket heeft (SIO-xxx), of als er bij de opdracht een link naar het ideeënbord wordt meegegeven:
+
+- **Lees het idee**: Haal de titel en beschrijving op van het SIO-ticket.
+- **Verwerk het in de openingszin**: Begin de productupdate altijd met deze vaste formule:
+  > *"Op basis van idee **[SIO-nummer] – [ideetitel]** hebben we ontwikkeld dat [wat er nu mogelijk is]."*
+- Dit laat zien dat feedback van klanten daadwerkelijk wordt opgepakt.
 
 ### Belangrijke Richtlijnen
 
 - Verzin **geen** functionaliteiten die niet expliciet genoemd zijn
+- Controleer bij elk SIA-ticket of er een SIO-koppeling is — zo ja, verwerk dit altijd
 - Suggereer relevante kennisitems die bij de update passen
 - Gebruik een positieve, enthousiasmerende toon
 - Wees specifiek over wat gebruikers kunnen doen
