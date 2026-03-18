@@ -9,6 +9,7 @@ Bugs worden eenduidig en volledig beschreven zodat het ontwikkelteam ze direct k
 ## Skills
 
 - **bugticket-maken** — Maakt een bugticket aan op het SIA-bord met de vaste structuur: situatie, reproductiestappen en gewenste situatie.
+- **story-maken** — Maakt een story aan op het SIA-bord met de vaste structuur: functionele lens (optioneel), acceptatiecriteria, technisch en feature flag.
 
 ## Werkwijze
 
