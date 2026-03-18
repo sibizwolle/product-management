@@ -10,6 +10,9 @@ Schrijven van kennisitems en productupdates voor de Sibi Community. Bevat een sk
 ### 2. Monitoring & Logging (`taak-monitoring-logging/`)
 Sentry-errors triëren en omzetten naar bruikbare Jira-tickets. Bevat een skill voor het verwerken van Sentry-issues naar gestructureerde bug-tickets.
 
+### 3. Tickets maken (`taak-ticket-maken/`)
+Bugtickets aanmaken in Jira op het SIA-bord. Bevat een skill die zorgt voor een vaste structuur: situatie, reproductiestappen en gewenste situatie.
+
 ## Structuur
 
 Elke taak heeft een eigen map met:
