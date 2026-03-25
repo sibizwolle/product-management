@@ -16,7 +16,10 @@ Deze skill helpt bij het aanmaken van ideeën in Jira op het SIO-bord (Sibi Idee
    - `issueTypeName`: `Idea`
    - `contentFormat`: `markdown`
    - Verwerk de aanleiding in de beschrijving als die er is.
-3. **Koppel een delivery ticket** (vraag de gebruiker):
+3. **Koppel een aanleiding-ticket** (als er een SUP-ticket is):
+   - Gebruik `mcp__atlassian__createIssueLink` met `type: "Polaris datapoint work item link"`, `inwardIssue: <SUP-ticket>`, `outwardIssue: <nieuw SIO-idee>`
+   - Gebruik nooit `"Relates"` voor SUP→SIO koppelingen
+4. **Koppel een delivery ticket** (vraag de gebruiker):
    - **Bestaand SIA-ticket koppelen**: gebruik `mcp__atlassian__createIssueLink` met `type: "Polaris work item link"`, `inwardIssue: <SIA-ticket>`, `outwardIssue: <nieuw SIO-idee>`
    - **Nieuw SIA-ticket aanmaken**: maak eerst een Story aan via `mcp__atlassian__createJiraIssue` met `projectKey: SIA` (volg de skill `story-maken` voor de juiste structuur), koppel daarna zoals hierboven
    - **Geen delivery ticket**: sla deze stap over
