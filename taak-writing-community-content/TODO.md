@@ -1,6 +1,6 @@
 # Community Content TODO
 
-Bijgewerkt op: 2026-03-09
+Bijgewerkt op: 2026-03-26
 
 Tickets die nog community content nodig hebben (kennisitem of productupdate).
 Alleen tickets met user-facing functionaliteit staan hier; puur technische bugfixes en interne taken zijn weggelaten.
@@ -143,6 +143,14 @@ Alleen tickets met user-facing functionaliteit staan hier; puur technische bugfi
   - Toelichting: Widgets kunnen nu ook beheerd worden op de /vinden-pagina. Verdient een update van het kennisitem over widgetbeheer voor beheerders.
 
 ## Afgevinkt (gedaan)
+
+- [x] **SIA-1974** – Vraagtypen Datum en Tijd in Formulier en Zelfservice
+  - Afgerond: 2026-03-26
+  - Productupdate geschreven en toegevoegd aan index.html (item-49, gekoppeld aan SIO-428)
+
+- [x] **SIA-1813** – ManualMaster-koppeling voor zoeken in Sociaal Intranet
+  - Afgerond: 2026-03-17
+  - Productupdate geschreven en toegevoegd aan index.html (item-44)
 
 - [x] **SIA-1931** – In gesprek met de Teamleider (epic: gespreksverslagen in Teamzicht)
   - Afgerond: 2026-03-09
