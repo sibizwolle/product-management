@@ -146,36 +146,36 @@ Alleen tickets met user-facing functionaliteit staan hier; puur technische bugfi
 
 - [x] **SIA-1868** – Afhankelijkheden in formuliervragen
   - Afgerond: 2026-03-27
-  - Productupdate geschreven en toegevoegd aan index.html (item-56, gekoppeld aan SIO-413)
+  - Productupdate geschreven en toegevoegd aan index.html (item-65, gekoppeld aan SIO-413)
   - Let op: ticket staat nog op In progress — update bijwerken zodra Done
 
 - [x] **SIA-1970** – Snelproces in Kwaliteitsroutine
   - Afgerond: 2026-03-27
-  - Productupdate geschreven en toegevoegd aan index.html (item-55, gekoppeld aan SIO-388)
+  - Productupdate geschreven en toegevoegd aan index.html (item-64, gekoppeld aan SIO-388)
 
 - [x] **BEO-1446** – Groepen volgen als stap in Maak kennis-wizard
   - Afgerond: 2026-03-27
-  - Productupdate geschreven en toegevoegd aan index.html (item-53)
+  - Productupdate geschreven en toegevoegd aan index.html (item-62)
 
 - [x] **BEO-1430** – Notificaties bij uit dienst gaan medewerker
   - Afgerond: 2026-03-27
-  - Productupdate geschreven en toegevoegd aan index.html (item-54)
+  - Productupdate geschreven en toegevoegd aan index.html (item-63)
 
 - [x] **BEO-1199** – Eigen kaarten bovenaan in Bind
   - Afgerond: 2026-03-27
-  - Productupdate geschreven en toegevoegd aan index.html (item-52, gekoppeld aan SIO-373)
+  - Productupdate geschreven en toegevoegd aan index.html (item-61, gekoppeld aan SIO-373)
 
 - [x] **SIA-2041** – Inzending formulier of melding print.css netjes maken
   - Afgerond: 2026-03-27
-  - Productupdate geschreven en toegevoegd aan index.html (item-51)
+  - Productupdate geschreven en toegevoegd aan index.html (item-60)
 
 - [x] **SIA-1694** – Blok 'Bestand' toevoegen in Kennis-editor
   - Afgerond: 2026-03-27
-  - Productupdate geschreven en toegevoegd aan index.html (item-50)
+  - Productupdate geschreven en toegevoegd aan index.html (item-59)
 
 - [x] **SIA-1974** – Vraagtypen Datum en Tijd in Formulier en Zelfservice
   - Afgerond: 2026-03-26
-  - Productupdate geschreven en toegevoegd aan index.html (item-49, gekoppeld aan SIO-428)
+  - Productupdate geschreven en toegevoegd aan index.html (item-58, gekoppeld aan SIO-428)
 
 - [x] **SIA-1813** – ManualMaster-koppeling voor zoeken in Sociaal Intranet
   - Afgerond: 2026-03-17
