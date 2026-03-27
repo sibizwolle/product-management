@@ -144,6 +144,10 @@ Alleen tickets met user-facing functionaliteit staan hier; puur technische bugfi
 
 ## Afgevinkt (gedaan)
 
+- [x] **SIA-1970** – Snelproces in Kwaliteitsroutine
+  - Afgerond: 2026-03-27
+  - Productupdate geschreven en toegevoegd aan index.html (item-55, gekoppeld aan SIO-388)
+
 - [x] **BEO-1446** – Groepen volgen als stap in Maak kennis-wizard
   - Afgerond: 2026-03-27
   - Productupdate geschreven en toegevoegd aan index.html (item-53)
