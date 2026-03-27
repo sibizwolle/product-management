@@ -144,6 +144,10 @@ Alleen tickets met user-facing functionaliteit staan hier; puur technische bugfi
 
 ## Afgevinkt (gedaan)
 
+- [x] **SIA-2041** – Inzending formulier of melding print.css netjes maken
+  - Afgerond: 2026-03-27
+  - Productupdate geschreven en toegevoegd aan index.html (item-51)
+
 - [x] **SIA-1694** – Blok 'Bestand' toevoegen in Kennis-editor
   - Afgerond: 2026-03-27
   - Productupdate geschreven en toegevoegd aan index.html (item-50)
