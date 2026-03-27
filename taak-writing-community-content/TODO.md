@@ -177,6 +177,10 @@ Alleen tickets met user-facing functionaliteit staan hier; puur technische bugfi
   - Afgerond: 2026-03-26
   - Productupdate geschreven en toegevoegd aan index.html (item-58, gekoppeld aan SIO-428)
 
+- [x] **SIA-1727** – Telefoonnummers in het telefoonlijst klikbaar
+  - Afgerond: 2026-03-23
+  - Productupdate geschreven en toegevoegd aan index.html (item-48)
+
 - [x] **SIA-1813** – ManualMaster-koppeling voor zoeken in Sociaal Intranet
   - Afgerond: 2026-03-17
   - Productupdate geschreven en toegevoegd aan index.html (item-44)
