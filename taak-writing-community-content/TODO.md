@@ -144,6 +144,10 @@ Alleen tickets met user-facing functionaliteit staan hier; puur technische bugfi
 
 ## Afgevinkt (gedaan)
 
+- [x] **BEO-1199** – Eigen kaarten bovenaan in Bind
+  - Afgerond: 2026-03-27
+  - Productupdate geschreven en toegevoegd aan index.html (item-52, gekoppeld aan SIO-373)
+
 - [x] **SIA-2041** – Inzending formulier of melding print.css netjes maken
   - Afgerond: 2026-03-27
   - Productupdate geschreven en toegevoegd aan index.html (item-51)
