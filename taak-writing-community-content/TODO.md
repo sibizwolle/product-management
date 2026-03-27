@@ -144,6 +144,11 @@ Alleen tickets met user-facing functionaliteit staan hier; puur technische bugfi
 
 ## Afgevinkt (gedaan)
 
+- [x] **SIA-1868** – Afhankelijkheden in formuliervragen
+  - Afgerond: 2026-03-27
+  - Productupdate geschreven en toegevoegd aan index.html (item-56, gekoppeld aan SIO-413)
+  - Let op: ticket staat nog op In progress — update bijwerken zodra Done
+
 - [x] **SIA-1970** – Snelproces in Kwaliteitsroutine
   - Afgerond: 2026-03-27
   - Productupdate geschreven en toegevoegd aan index.html (item-55, gekoppeld aan SIO-388)
