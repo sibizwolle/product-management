@@ -1,6 +1,6 @@
 # Community Content TODO
 
-Bijgewerkt op: 2026-03-26
+Bijgewerkt op: 2026-03-27
 
 Tickets die nog community content nodig hebben (kennisitem of productupdate).
 Alleen tickets met user-facing functionaliteit staan hier; puur technische bugfixes en interne taken zijn weggelaten.
@@ -143,6 +143,10 @@ Alleen tickets met user-facing functionaliteit staan hier; puur technische bugfi
   - Toelichting: Widgets kunnen nu ook beheerd worden op de /vinden-pagina. Verdient een update van het kennisitem over widgetbeheer voor beheerders.
 
 ## Afgevinkt (gedaan)
+
+- [x] **SIA-1694** – Blok 'Bestand' toevoegen in Kennis-editor
+  - Afgerond: 2026-03-27
+  - Productupdate geschreven en toegevoegd aan index.html (item-50)
 
 - [x] **SIA-1974** – Vraagtypen Datum en Tijd in Formulier en Zelfservice
   - Afgerond: 2026-03-26
