@@ -144,6 +144,14 @@ Alleen tickets met user-facing functionaliteit staan hier; puur technische bugfi
 
 ## Afgevinkt (gedaan)
 
+- [x] **BEO-1446** – Groepen volgen als stap in Maak kennis-wizard
+  - Afgerond: 2026-03-27
+  - Productupdate geschreven en toegevoegd aan index.html (item-53)
+
+- [x] **BEO-1430** – Notificaties bij uit dienst gaan medewerker
+  - Afgerond: 2026-03-27
+  - Productupdate geschreven en toegevoegd aan index.html (item-54)
+
 - [x] **BEO-1199** – Eigen kaarten bovenaan in Bind
   - Afgerond: 2026-03-27
   - Productupdate geschreven en toegevoegd aan index.html (item-52, gekoppeld aan SIO-373)
